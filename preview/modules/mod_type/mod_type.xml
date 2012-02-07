@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>分类显示</name>
+	<author>王洪亮</author>
+	<creationDate>2010-2-23</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>分类显示.</description>
+
+	<files>
+    	<filename module="mod_type" >mod_type.php</filename>
+  	</files>
+ 	<position>
+		left
+	</position>
+	<params>
+		<param name="menuid" type="menuitem" default="1" label="选择菜单分类" description="指定显示那一个菜单分类下的子分类" />
+	</params>
+</install>

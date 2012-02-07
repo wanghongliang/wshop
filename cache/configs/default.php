@@ -1,0 +1,15 @@
+<?php return array (
+  'title' => '格力在线',
+  'email' => 'whl_whm@126.com',
+  'published' => '0',
+  'attribs' => '',
+  'metakey' => '格力在线关键字',
+  'metadesc' => '格力在线网站描述',
+  'template' => 'default',
+  'uid' => '1',
+  'logo' => '/media/1/webtitle.gif',
+  'banner' => '',
+  'bannertype' => '1',
+  'column' => '2',
+  'options' => 'a:9:{s:10:"thumbwidth";s:3:"180";s:11:"thumbheight";s:3:"180";s:8:"imgwidth";s:3:"350";s:9:"imgheight";s:3:"350";s:7:"deposit";s:3:"100";s:12:"price_format";s:1:"1";s:11:"integralway";s:1:"2";s:12:"integralrate";s:0:"";s:5:"cache";s:1:"0";}',
+); ?>

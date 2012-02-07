@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.6" type="plugin" group="pay">
+	<name>财付通</name>
+	<author>王洪亮</author>
+	<creationDate>2011-3-17</creationDate>
+	<copyright>Copyright (C) 2010-2011 所有版权保留 </copyright>
+	<license> 必需经作者许可，才能使用。</license>
+	<authorEmail>whl_whm@126.com</authorEmail>
+	<authorUrl>www.ui58.com</authorUrl>
+	<version>1.0.0</version>
+	<description>财付通支付接口</description>
+	<files>
+		<filename plugin="tenpay">tenpay.php</filename> 
+	</files>
+	<params>
+		<param name="accout" type="text" default="" size="35" label="客户号：" /> 
+		<param name="key" type="text" default="" size="35" label="商户密钥："  /> 
+		<param name="rates" type="text" default="" size="5" label="费率：" description="可以设置百分比如：1%,也可设置固定费率" /> 
+		<param name="logo" type="upload" default="" label="支付方式LOGO" description="用于LOGO图片的显示" />
+		<param name="desc" type="textarea" default="" rows="5" cols="50" label="描述：" /> 
+	</params>
+</install>

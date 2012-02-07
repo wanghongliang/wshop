@@ -1,0 +1,263 @@
+html{background:#f1f7eb;}
+.color2{color:#f60;}
+#pcontent{ margin-top:20px; }
+.tfleft{float:left; width:685px;}
+.share{position:relative; float:left; display:inline; margin-left:20px; padding-top:5px; width:700px; height:25px; font:normal 12px/25px '宋体'; background:#fff; border:1px solid #ccc; border-bottom:none;}
+.tnum{position:absolute; left:-44px; top:14px; width:66px; height:66px; font:normal 25px/60px '微软雅黑'; color:#f60; text-align:center; background:url(../images/tuannums.gif) no-repeat left top}
+.sharelab{float:left; width:80px; text-align:right;}
+.share_sina, .share_qzone, .share_qq, .share_baidu, .share_taojh, .share_kaixin, .share_renren, .share_douban, .share_baishh {float:left; margin-right:12px; padding-left:18px; height:20px; background:url(../images/tuanpublic.gif) no-repeat left -445px;}
+.share_sina{background-position:-370px -445px;}
+.share_qzone{background-position:-442px -445px;}
+.share_qq{background-position:-82px -445px;}
+.share_baidu{background-position:0px -445px;}
+.share_taojh{background-position:-514px -445px;}
+.share_kaixin{background-position:-298px -445px;}
+.share_renren{background-position:-225px -445px;}
+.share_douban{background-position:-154px -445px;}
+.share_baishh{background-position:-584px -445px;}
+
+.tcontent{float:left; margin-bottom:10px; width:768px; background:#fff; border:1px solid #ccc;}
+.titles{margin:30px 40px 0px 40px; font:bold 25px/30px '微软雅黑','黑体'; letter-spacing:1px; color:#000;}
+.titles a{color:#000;}
+.tuanarg{float:left; display:inline; margin:30px 0px 0px 10px; width:250px; color:#000; }
+.tuandl{position:relative; float:left; width:248px; padding:1px 0px 5px 0px; border:1px solid #dcdcdc; background:#f5f5f5; }
+.tuandl dt{position:absolute; left:-41px; top:-20px; width:340px; height:105px; background:url(../images/tuanlab.gif) no-repeat left top;}
+.tuandl dt.end{background:url(../images/tuanlab2.gif) no-repeat left top;}
+.good-price{float:left; display:inline; margin:40px 0px 0px 60px; width:110px; font:normal 40px/40px '微软雅黑'; color:#fff;}
+.tuanbtn{float:right; display:inline; margin:35px 45px 0px 0px; width:120px; height:55px; overflow:hidden; text-indent:-999em;}
+.tuandl dd{float:left; display:inline; margin:90px 0px 0px 10px; width:68px; color:#666; text-align:center;}
+.tuandl dd span{display:block; font:normal 14px/20px '微软雅黑'; color:#333;}
+
+.tuantime,.tuantime2{float:left; margin-top:10px; padding:20px 0px; width:248px; text-align:center; background:url(../images/hourglass002.gif) no-repeat #F5F5F5 180px 10px; border:1px solid #dcdcdc;  }
+.tuantime2{ background:#FFFBE1; font-size:14px; color:#f60; border:1px solid #FEBF90;}
+.showtime{font-weight:bold; letter-spacing:2px;}
+.tuanperson{float:left; margin-top:10px; padding:10px 0px; width:248px; text-align:center; background:#f5f5f5; border:1px solid #dcdcdc;}
+.tuanok{padding:10px 0px; font-size:14px; font-family:'微软雅黑'; color:#01810A;}
+.tuandesc{float:right; display:inline; margin:20px 10px 0px 0px; padding-bottom:20px; width:490px;}
+.tuantext{padding:30px 0px 0px 50px; background:url(../images/quote.gif) #f5f5f5 no-repeat left 5px;min-height:80px; *height:80px; color:#999;}
+
+.tfright{float:right; width:200px;}
+.tuanbox{margin-bottom:10px; border:1px solid #ccc;}
+.boxtitle{height:30px; font:bold 14px/30px '宋体'; color:#333; text-indent:10px; background:#f3f3f3; border-bottom:1px solid #ccc;}
+.boxcon{padding:10px; color:#666; background:#fff;}
+
+.showcontent{float:left; margin-top:10px; width:768px; background:#fff; border:1px solid #ccc;}
+.modtitle{height:30px; font:bold 14px/30px '宋体'; text-indent:10px; color:#000; background:#f3f3f3; border-bottom:1px solid #ccc;}
+.showcontent p{margin:10px;}
+
+.newlist li{padding-left:10px; background:url(../images/tuanpublic.gif) no-repeat -590px -200px;}
+
+/********** 往期团购**********/
+.hfleft{float:left;  width:765px; background:url(../images/hiscnt.gif) repeat-y left top;}
+.histitle{padding-top:10px; text-indent:20px; font:bold 20px/40px '微软雅黑'; color:#ED0B0B; letter-spacing:2px; background:url(../images/histop.gif) no-repeat left top; border-bottom:1px solid #F59E9F;}
+.hisbtm{clear:both; height:20px; background:url(../images/hisbtm.gif) no-repeat left bottom;}
+.hfright{float:right; margin-top:20px; width:200px;}
+.histcontent{float:left; display:inline; margin:10px 0px 0px 20px; width:660px;}
+.teamdl{float:left; padding:10px 0px 15px 0px; width:320px; border-top:1px dashed #ccc; border-right:1px dashed #ccc;}
+.team-date{margin:0px 15px; font:bold 14px/25px '微软雅黑'; color:#000;}
+.team-desc{margin:0px 15px; color:#333;}
+.team-pic{float:left; display:inline; margin:10px 0px 0px 15px; width:180px; height:180px; overflow:hidden;}
+.team-arg{float:right; display:inline; margin:10px 10px 0px 0px; width:105px;}
+.team-num{font:bold 16px/25px 'Arial'; color:#ED0E0E;}
+.bcolor2{font-weight:bold; color:#000;}
+.bcolor3{font-weight:bold; color:#ED0B0B;}
+.page{clear:both; margin:0px 20px; padding:20px 0px 10px 0px; color:#333; text-align:center; border-top:1px dashed #ccc;}
+.page span{padding:5px 8px; color:#999;}
+.page a{padding:5px 8px; color:#fff; background:#8b8b8b;}
+.page .pr,.page .pl{ float:none; display:inline-block; margin:0px 5px;}
+
+.page_num_word,.page_current,.page_num_word{ margin:0px 2px;}
+
+.teamtitle{height:30px; font:bold 14px/30px '微软雅黑'; color:#fff; text-indent:10px; background:url(../images/teamtop.gif) no-repeat left top;}
+.todayteam{margin-top:10px; padding-bottom:10px; border-bottom:1px solid #F39DA6; }
+.td-name a{font:bold 14px/18px '微软雅黑';}
+.td-price{float:left; width:80px;}
+.td-ord{clear:both; padding-top:10px;}
+.td-btn{ display:block; width:110px; height:30px; overflow:hidden; text-indent:-999em; font:bold 14px/30px '微软雅黑'; color:#fff; background:url(../images/tuanpublic.gif) no-repeat -295px -263px;}
+
+.newdl{margin:10px 20px 0px 10px; padding-bottom:10px; border-bottom:1px solid #ccc; }
+.newdl dt{font:bold 14px/30px '宋体'; color:#000;}
+
+/****************** 底部信息***************************/
+#hbotm{margin-top:10px; padding-top:20px; /**background:#d5d5d5 url(../images/htuanbtm.jpg) repeat-x left top;**/border-top:2px solid #d3d3d3;}
+#pback{margin:0px auto; width:980px; padding-bottom:15px; width:980px;}
+
+.botlink{height:30px; text-align:center; font:normal 12px/30px '宋体'; color:#000;}
+.botlink a{color:#000;}
+#copyright{margin:0px auto; width:980px; padding:0px 0px 20px 0px; text-align:center; line-height:2em; color:#666;}
+
+.deal_buy{}
+.deal_buy th,.deal_buy td{text-align:center; font-size:12px; }
+.deal_buy th{background:#FFF7D7;font-size:14px;}
+.deal_buy .db_name{text-align:left;width:200px;+width:260px;font-size:14px;padding:6px}
+.deal_buy .db_quantity{text-align:center;width:80px}
+.deal_buy .db_multi{width:20px}
+.deal_buy .db_price{font-family:"宋体",Arial, Helvetica, sans-serif;width:60px}
+.deal_buy .db_equal{width:20px}
+.deal_buy .db_total{text-align:right;width:100px;}
+.deal_buy .db_input{padding:2px 5px;font-size:18px;font-weight:bold;width:50px;margin:0px auto;text-align:center;display:block}
+.deal_buy .yf{line-height:35px;font-weight:normal;font-size:12px;}
+.deal_buy .line{border-top:#FFEDA6 1px solid;}
+.deal_buy .bod{font-weight:bold;font-size:20px;}
+
+td.red {
+    color: #CC0000;
+    font-size: 20px;
+    font-weight: bold;
+	padding:5px 0px 10px 0px;
+}
+.sect {
+    padding: 15px 20px 30px;
+}
+
+.gbt_line {
+    border-bottom: 1px solid #FBD686;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 15px 20px;
+}
+
+
+.zfbox .grep_ok {
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.zfbox{ float:right;  padding:20px 0px; }
+.gdbtn {
+    background: none repeat scroll 0 0 #FFCC00;
+    border-color: #FFFF99 #996600 #996600 #FFFF99;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+select, button, input, textarea {
+    font: 100% arial,helvetica,clean,sans-serif;
+    margin: 0;
+}
+
+
+.flow_addr {
+    font-size: 14px;
+}
+.flow_addr dt {
+    background-color: #FFF2D5;
+    padding: 10px;
+}
+.flow_addr dd{ padding:10px; }
+.flow_addr dd p{ padding:5px 0px;}
+
+.or-content p{ padding-left:5px; }
+.paytab td{ padding:8px 0px; font-size:12px;  }
+.paytab td b{font-weight:normal; }
+
+
+
+ /************ 收货人信息 ********************/
+.ortitle{margin-bottom:10px; font-size:16px; line-height:35px; border-bottom:1px solid #ccc; color:black;}
+.or-content{margin-top:10px; padding:10px 10px; background:#FFFAF4;  }
+.or-content p{padding:5px 0px;}
+.ardiv{display:none; margin-top:10px; padding:10px 0px; border-top:1px dashed #ccc;}
+.ortab th{text-align:right; font-weight:normal; font-size:12px;}
+.ortab td{text-align:left; font-size:12px; color:#999;}
+.ortab label{color:#333;}
+.alink2{color:#00f; text-decoration:underline;}
+.orbtn{width:160px; height:40px; font:bold 14px/40px '宋体'; text-align:center; color:#fff; background:url(../images/btn2.gif) no-repeat left top; border:none; cursor:pointer;}
+.btndiv{padding:30px 10px; text-align:center; }
+.btndiv .subremark{ margin-top:5px;}
+.nohint{ color:red; display:none; }
+
+th.db_name{ text-align:left; }
+.checkout-tab td{ padding:5px 0px; font-size:14px;}
+
+
+.pay_box{
+    height: auto;
+    padding-bottom: 15px;
+	padding:20px;
+}
+.ok_title {
+    background: url("../images/bg.gif") no-repeat scroll -82px -107px transparent;
+	color:black;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    width: 125px;
+}
+.ok_line {
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: 1px dashed #CCCCCC;
+    height: 35px;
+    line-height: 35px;
+}
+.ok_line a{ color: #3F8CD9; }
+.ok_line span{color:red;}
+
+.endway_line {
+    line-height: 30px;
+    margin-top: 10px;
+	color:#666;
+}
+
+/********** remove bottom background ***********/
+#pintro{background:none; border:none; text-align:left;}
+
+
+.zone {
+    background-color: #FFFFFF;
+    border: 1px solid #DECEAA; 
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.invate_way {
+    font-size: 14px;
+}
+.invate_way dt {
+    background-color: #FFF2D5;
+    border: 1px solid #FFE0B0;
+    line-height: 22px;
+    padding: 10px 5px 10px 15px;
+}
+.invate_way dd {
+    border-bottom: 1px solid #FFE0B0;
+    margin-left: 40px;
+    padding: 40px 0 40px 70px;
+}
+
+
+#inv_way1 {
+    background: url("../images/invateway_bg1.gif") no-repeat scroll 0 40px transparent;
+    line-height: 24px;
+}
+.inputs {
+    background-color: #FFFFFF;
+    border: 1px solid #FFC569;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+.invate_way b {
+    color: #C90809;
+}
+
+.dealok {
+    background: url("../images/dealok_bg.gif") no-repeat scroll 0 1px transparent;
+    color: #333333;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 20px;
+    margin-left: 54px;
+    padding-left: 43px;
+    width: 85px;
+}

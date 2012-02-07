@@ -1,0 +1,177 @@
+<?php
+/**
+* 类：  Loader
+* 作用：加载相应文件
+* 注间：此加载类，需要有一定的规则,文件名和文件中包含的类名相同
+*/
+
+ 
+
+ //用于加载功能类
+class WLoader
+{
+
+	 
+	 //从一个指定的文件中加载一个类
+	static function import( $filePath, $base = null, $key = 'libs.' )
+	{
+		static $paths;
+
+		//用一个静态数组来存加载的文件路径
+		if (!isset($paths)) {
+			$paths = array();
+		}
+
+		//是否加载指定目录
+		$keyPath = $key ? $key . $filePath : $filePath;
+		
+
+		//echo $keyPath;
+
+		//如果静态数组中没有存在此路径
+		if (!isset($paths[$keyPath]))
+		{
+			//是否设定绝对路径
+			if ( ! $base ) {
+				$base =  dirname( __FILE__ );
+			}
+
+			//分离文件目录字符串
+			$parts = explode( '.', $filePath );
+
+			//将数组最后一个单元弹出
+			$classname = array_pop( $parts );
+
+			//这里会有两种不同的类，一种：类，第二种：是某类的帮助类
+			switch($classname)
+			{
+ 
+				default :  //直接构造类名
+					$classname = ucfirst($classname);
+					break;
+			}
+
+
+			//构造路径
+			$path  = str_replace( '.', DS, $filePath );
+ 
+			//检测类是否存在
+			if ( class_exists($classname) )
+			{
+		
+				//这里先注册，用到时再加载进来,支持php5+,php4先加载进来
+				$classes	= WLoader::register($classname, $base.DS.$path.'.php');
+				$rs			= isset($classes[strtolower($classname)]);
+			}
+			else
+			{
+				 //如果不是 核心类，就直接加载
+				$rs   = include($base.DS.$path.'.php');
+			}
+			
+			$paths[$keyPath] = $rs;
+		}
+		//echo $path;
+		return $paths[$keyPath];
+	}
+
+	//此方法作用于，先添加一个类,用到时再自动加载
+	function & register ($class = null, $file = null)
+	{	
+		//此处声明一个静态数组用于记录，所要包括所要加载所有类的文件路径
+		static $classes;
+
+		if(!isset($classes)) {
+			$classes    = array();
+		}
+
+		if($class && is_file($file))
+		{
+			//数组的键均为小写
+			$class = strtolower($class);
+			$classes[$class] = $file;
+
+			//  PHP 4 就直接包含进来
+			if((version_compare( phpversion(), '5.0' ) < 0)) {
+				WLoader::load($class);
+			}
+
+		}
+
+		return $classes;
+	}
+
+
+	 //逻辑功能函数，用于加载文件，include 文件,并判断类是否已经加载，避免重复加载
+	static function load( $class )
+	{
+		$class = strtolower($class); //force to lower case
+
+		if (class_exists($class)) {
+			  return;
+		}
+
+		$classes = WLoader::register();
+		if(array_key_exists( strtolower($class), $classes)) {
+
+			include($classes[$class]);
+			return true;
+		}
+		return false;
+	}
+}
+
+
+ //当调用一个类时，并没有此类，此函数会尝试找到正确的文件，并包含进来
+
+ //php5+
+function __autoload($class)
+{
+	if(WLoader::load($class)) {
+		return true;
+	}
+	return false;
+}
+
+
+ //退出,并显示消息函数
+function wexit($message = 0) {
+    exit($message);
+}
+
+ //封装导入类的函数
+function import( $path ) {
+	return WLoader::import($path);
+}
+ 
+
+/**
+ * 直接从模板目录下获取文件路径，并包含文件
+ */
+function getModule($arg,$ab_path='',$suffix=''){
+	static $instances;
+
+	$key=strtolower($arg);
+	if(!isset($instances[$key])){
+		if($ab_path==''){
+			$ab_path=PATH_TEMPLATE.DS.$GLOBALS['app']->getTemplate();
+		}
+		$arg=str_replace('.',DS,$arg);
+		
+		$path=$ab_path.DS.$arg.'.php';
+		if(is_file($path)){
+			include($path);
+			$classname= ucfirst(substr($arg,strrpos($arg,DS)+1)).$suffix;
+			if(class_exists($classname)){
+				$object= eval('return '.$classname.'::getInstance();');
+			}else{
+				$object = Null;
+			}
+		}else{
+			Error::throwError('没有找到:'.$path);
+			
+		}
+		$instances[$key]=$object;
+	}
+	return $instances[$key];
+}

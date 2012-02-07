@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>自定义模块集合框</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>自定义模块集合框.</description>
+
+	<files>
+    	<filename module="mod_wrap" >mod_wrap.php</filename>
+  	</files>
+ 	<position>
+		wrap
+	</position>
+	<params>
+		<param name="modulepos" type="text" default="" size="15" label="模块位置名称" description="位置名称" />
+
+		<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+	</params>
+</install>

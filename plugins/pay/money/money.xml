@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.0" type="plugin" group="pay">
+	<name>货到付款</name>
+	<author>王洪亮</author>
+	<creationDate>2011-3-17</creationDate>
+	<copyright>Copyright (C) 2010-2011 所有版权保留 </copyright>
+	<license> 必需经作者许可，才能使用。</license>
+	<authorEmail>whl_whm@126.com</authorEmail>
+	<authorUrl>www.ui58.com</authorUrl>
+	<version>1.0.0</version>
+	<description>货到付款接口</description>
+	<files>
+		<filename plugin="money">money.php</filename> 
+	</files>
+	<params> 
+		<param name="logo" type="upload" default="" label="支付方式LOGO" description="用于LOGO图片的显示" />
+	    <param name="desc" type="textarea" default="" rows="5" cols="50" label="描述：" /> 
+
+	</params>
+
+</install>

@@ -1,0 +1,68 @@
+/* 定义网页体 */
+body {
+ 	text-align:center;PADDING: 0px;MARGIN: 0px;  
+	font-size: 12px;
+	text-decoration: none;
+	line-height:20px;
+ 	font-family:'verdana','Arial';
+	text-align:center;
+}
+
+
+
+/* 定义 公共 超链接 */
+A:link {
+	color: #3E3E3E; 
+	text-decoration: none;
+}
+A:visited {
+	text-decoration: none;
+	color:#3E3E3E;	
+}
+A:hover {
+	 text-decoration: none;
+	 color:red;
+}
+A:active {
+	 text-decoration: none;
+	 color:red;
+}
+
+ 
+
+/** 网页的容器框 **/
+.container{
+	margin:auto;
+	width:1003px;
+	min-height:580px;
+	text-align:left;
+}
+
+form,input,select{
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+}
+
+ul,ul li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+table tr td{
+	vertical-align:middle; 
+	font-size:12px;
+}
+
+
+
+/*** 清除浮动的标签 ***/
+.clr{
+	clear:both;
+	width:100%;
+	height:0px;
+	overflow:hidden;
+}
+
+

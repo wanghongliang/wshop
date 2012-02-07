@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="显示文章一篇文单">
+		<message>
+			<![CDATA[This layout shows a single weblink.]]>
+		</message>
+	</layout>
+	<state>
+		<name>显示文章一篇文单</name>
+		<description>显示文章一篇文单</description>
+		<params>
+			<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="图片" description="PARAMIMAGE"  />
+
+
+
+			<param name="id" type="article" default="0" label="选择一篇文件" description="选择一篇文件" />
+	
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>产品显示</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>产品显示.</description>
+
+	<files>
+    	<filename module="mod_product" >mod_product.php</filename>
+  	</files>
+ 	<position>
+		home
+	</position>
+	<params>
+		<param name="num_products" type="text" default="8" size="5" label="显示的数量" description="显示的数量" />
+		<param name="catid" type="catid" com="products" default="0"   label="请选择分类" description="指定分类显示" />
+ 		<param name="showway" type="list" default="1" label="显示方式" description="显示方式">
+			<option value="1">最新产品样式</option>
+			<option value="2">热销产品样式</option>
+			<option value="3">特价样式</option> 
+
+			<option value="4">内页热卖信息样式</option> 
+  		</param>
+
+	</params>
+</install>

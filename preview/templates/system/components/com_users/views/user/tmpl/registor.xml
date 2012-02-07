@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="注册会员">
+		<message>
+			<![CDATA[注册会员]]>
+		</message>
+	</layout>
+	<state>
+		<name>注册会员</name>
+		<description>注册会员</description>
+		<params>
+		</params>
+	</state>
+</metadata>

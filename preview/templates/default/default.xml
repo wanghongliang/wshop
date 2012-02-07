@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>默认模板</name>
+	<creationDate>2011-3-26</creationDate>
+	<author>王洪亮</author>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>http://www.daybillion.com</authorUrl>
+	<copyright>所有版权保留</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>本模板属天亿系统专用</description> 
+	<params>
+	</params>
+</install>

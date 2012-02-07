@@ -1,0 +1,121 @@
+
+#car-lab, #car-lab1, #car-lab2{float:right; display:inline; margin:50px 0px 0px 0px; width:500px;  }
+#car-lab{background:url(../images/car_tai.gif) no-repeat left top; }
+#car-lab1{background:url(../images/car_tai.gif) no-repeat left -40px;}
+#car-lab2{background:url(../images/car_tai.gif) no-repeat left -80px;}
+#car-lab li, #car-lab1 li, #car-lab2 li{float:left; padding:5px 0px; width:160px; text-align:center;  font-weight:bold; }
+
+.atbei{padding:10px; color:#e58c32; background:#FFFAF4; border:1px solid #FFEBBC; CLEAR:BOTH;}
+#car-tab{margin:10px auto; padding:0px; text-align:center;border:1px solid #f90;}
+#car-tab th{ font-size:12px; padding:5px; background:#ffedd1; color:#f60; border-bottom:1px solid #f90;}
+#car-tab td{ font-size:12px; padding:5px; border-bottom:1px solid #e3e3e3;}
+#car-tab td.car-img{ border-right:none; text-align:left; }
+#car-tab td.car-img .img{  margin-right:10px;width:60px; height:60px; float:left; padding:1px;}
+#car-tab td span{padding:0px 3px;   font-size:14px; cursor:pointer;}
+#car-tab td.car-total{padding:20px 10px; text-align:right;}
+#car-tab td .num{width:30px; padding:0px 3px; height:18px; line-height:18px; border:1px solid #999;}
+#cart-btn{margin:30px 0; text-align:right;}
+.cart-price{font-size:15px;font-weight:bold; color:#f60; padding-left:15px; background:url(../images/puback.gif) no-repeat -100px -96px;}
+
+/************ 收货人信息 ********************/
+.ortitle{ margin-top:20px; margin-bottom:10px; font-size:14px; line-height:35px; color:black; color:#f60; border-bottom:1px solid #e3e3e3; }
+.or-content{margin-top:10px; padding:0px 20px 10px 20px; border:1px solid #ccc; color:#000;}
+.or-content table td{ color:#666; }
+.or-content p{padding:5px 0px;}
+.ardiv{display:none; margin-top:10px; padding:10px 0px; border-top:1px dashed #ccc;}
+.ortab th{text-align:right; font-weight:normal; font-size:12px;}
+.ortab td{text-align:left; font-size:12px;  }
+.ortab label{ }
+.alink2{color:#00f; text-decoration:underline;}
+.orbtn{width:160px; height:40px; font:bold 20px/40px '宋体'; text-align:center; color:#fff; background:url(../images/btn2.gif) no-repeat left top; border:none; cursor:pointer;}
+.btndiv{padding:30px 10px; text-align:center; }
+.btndiv .subremark{ margin-top:10px; color:#666;}
+
+
+.nohint {
+    display: none;
+	color:red;
+}
+
+
+span.total_num,span.total_price,span.total_doposit{ color:#f60; font-size:14px; font-weight:bold; font-family:arial; }
+
+/***************** 在线支付 ***********************/
+.pay_info{margin-top:10px; padding:10px;   background:#FFFDE9; border:1px solid #FF914E;}
+#pay_ul{float:left; padding-bottom:20px; width:978px; background:#f7f7f7; border:1px solid #d3d3d3;}
+#pay_ul li{float:left; display:inline; margin:0px 0px 30px 40px; width:140px; height:40px; overflow:hidden;}
+#pay_ul li img{display:block;}
+#pay_ul li.txt{margin:0px; padding:10px; line-height:40px; width:950px;}
+
+
+.pay_box{
+    border: 1px solid #E2E2E2;
+    height: auto;
+    padding-bottom: 15px;
+	padding:20px;
+}
+.ok_title {
+    background: url("../images/bg.gif") no-repeat scroll -82px -107px transparent;
+	color:black;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    padding-left: 35px;
+    width: 125px;
+}
+.ok_line {
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: 1px dashed #CCCCCC;
+    height: 35px;
+    line-height: 35px;
+}
+.ok_line a{   }
+.ok_line span{color:red;}
+
+.endway_line {
+    line-height: 30px;
+    margin-top: 10px;
+	color:#666;
+}
+
+
+input, img, select {
+    vertical-align: middle;
+}
+
+
+.or-content p{ padding-left:5px; }
+.paytab td{ padding:8px 0px; font-size:12px;  }
+.paytab td b{font-weight:normal; }
+
+.checkout-tab{font-size:12px; text-align:left;}
+.checkout-tab th{padding:0px 10px;font:bold 12px/30px 'Arial'; color:#E58C32; background:#FFEDD1; }
+.checkout-tab td{padding:10px;  border-bottom:1px dotted #CCC;  }
+.checkout-tab td.car-img{ border-right:none; text-align:left;  }
+.checkout-tab td.car-total{ border-bottom:1px solid #CCC; }
+
+.checkout-tab .total{padding:10px; line-height:25px; border:0px; background:#efefef;}
+.checkout-tab td.car-img .img{ border:1px solid #f0f0f0; margin-right:10px;width:60px; height:60px; float:left; padding:1px;}
+
+
+
+/** 购物车的相关产品样式 **/
+.elite_shop_poducts .bod{ border:1px solid #c4c4c4; height:420px; padding:10px 0px 10px 0px; clear:both; background:white; }
+.elite_shop_poducts .t{ height:22px; overflow:hidden;}
+.elite_shop_poducts h3{ width:120px; line-height:22px;  background:#f3f3f3;  font-size:12px; text-align:center; float:left; cursor:pointer; }
+.elite_shop_poducts .active{ background:#c4c4c4; color:white; }
+.hpbox{ float:left; width:175px; text-align:center; padding:5px 10px; }
+.good-time{height:24px; line-height:24px; color:#999; background:url(../images/limited.gif) repeat-x left top; border:1px solid #e3e3e3;}
+.good-time span{padding:0px 5px; font-weight:bold; color:#333;}
+.good-img{margin:5px auto; width:130px; height:130px; overflow:hidden;}
+.good-name{height:40px; overflow:hidden;}
+.price{padding-left:10px; background:url(../images/dol.gif) no-repeat left 5px; color:#f60; font:bold 18px/20px 'Arial';}
+
+
+.attr_param{ color:red; }
+
+
+#copyright{ padding-top:20px; }

@@ -1,0 +1,18 @@
+trades 
+加字段:
+img
+published
+hits
+price
+
+加表:
+notice
+
+companies
+加字段:
+email
+
+guestbooks
+加字段:
+trade_id	#促销ID
+user_id		#用户ID信息

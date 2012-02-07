@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>搜索框</name>
+	<author>王洪亮</author>
+	<creationDate>2010-2-23</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>搜索框.</description>
+
+	<files>
+    	<filename module="mod_search" >mod_search.php</filename>
+  	</files>
+ 	<position>
+		wrap
+	</position>
+	<params>
+ 
+	</params>
+</install>

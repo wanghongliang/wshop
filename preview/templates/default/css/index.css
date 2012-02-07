@@ -1,0 +1,66 @@
+ol,ul,dl,dt,dd{list-style:none; margin:0px; padding:0px;}
+.newptitle{width:188px; height:30px; overflow:hidden; text-indent:-999em; background:#f3f3f3 url(../images/index.gif) no-repeat -485px -255px; border:1px solid #ccc;}
+.newpbox{ height:136px; list-style:none; margin:0px; padding:2px 0px; border:1px solid #ccc; border-top:none; background:white;}
+.newpbox dt, .newpbox dd{margin:0px; padding:0px;}
+.newpbox .img{float:left; display:inline; margin:10px 0px 0px 10px;}
+.newpbox .name{clear:both; margin:0px 10px; padding:0px 0px; height:40px; overflow:hidden;}
+.newpbox .gprice{float:left; display:inline; margin:25px 0px 0px 20px;}
+.price{padding-left:10px; background:url(../images/public.gif) no-repeat -386px -435px; color:#f60; font:bold 18px/20px 'Arial';}
+
+#hcenter{float:left; display:inline; margin:10px 0px 0px 10px; width:580px;}
+#limited{position:relative; margin-top:10px; height:35px; overflow:hidden; text-indent:-999em; background:url(../images/index.gif) no-repeat left top;}
+.hmore{position:absolute; top:8px; right:0px; width:65px; height:20px; overflow:hidden; font:normal 12px/20px '宋体'; text-indent:-999em; color:#666;}
+.limitbox{float:left; display:inline; margin:10px 0px 0px 18px; padding-bottom:10px; width:170px; text-align:center;}
+.good-time{height:24px; line-height:24px; color:#666; background:#fff; border:1px solid #ccc;}
+.good-time span{color:#f60;}
+.good-img{margin:5px auto; width:130px; height:130px; overflow:hidden;}
+.good-name{height:40px; overflow:hidden;}
+
+#groupbuy{position:relative; clear:both; height:30px; overflow:hidden; text-indent:-999em; background:url(../images/index.gif) no-repeat left -45px;}
+.tuanbox{float:left; display:inline; margin:10px 0px 0px 10px; width:275px;}
+.tuan-img{float:left; width:130px; height:150px;}
+.tuan-name{float:right; width:130px; margin-top:10px; }
+.tuan-price{float:right; margin-top:10px; width:130px; height:30px; line-height:30px; color:#fff; background:url(../images/index.gif) no-repeat -447px -105px;}
+.tuan-price span{float:left; display:inline; margin-left:25px; font:bold 18px/30px 'Arial';}
+.tuan-price a{float:right; width:50px; height:27px; overflow:hidden; text-indent:-999em;}
+.tuan-person{clear:both; font:normal 14px/30px '微软雅黑'; height:30px;   text-indent:60px; background:#FFF2D7 url(../images/index.gif) no-repeat -515px -296px;}
+
+.hthum{float:left; margin-top:10px; width:980px;}
+
+
+
+/** 最新公告 **/
+#hnews{margin-top:10px; border:1px solid #ccc; background:#f3f3f3 url(../images/index.gif) no-repeat -483px -215px; height:30px; }
+#hnewsul{ border:1px solid #ccc; border-width:0px 1px 1px 1px; height:187px;}
+#hnewsul li{ background:url(../images/public.gif) no-repeat -378px -401px; padding-left:18px; line-height:25px;}
+
+/** 秒杀专区 **/
+#seckill{ margin-top:10px; border:1px solid #ccc;}
+#seckilltitle{height:35px; background:url(../images/index.gif) no-repeat left -236px;}
+#seckill .good-img{margin-top:0px; }
+#seckill .good-name{margin:0px 10px; color:#333;}
+#seckill .good-price{color:#999;}
+#seckill .seckilltime{height:40px; text-align:center; background:url(../images/index.gif) no-repeat left -271px;}
+#seckill .seckilltime span{padding:0px 16px; font:bold 25px/40px 'Arial'; color:#000;}
+#seckillbox{height:300px; text-align:center;}
+#hkillbtn{display:block; width:90px; height:27px; overflow:hidden; text-align:left; text-indent:-999em; background:url(../images/index.gif) no-repeat -474px -174px;}
+.sec-btn{margin:5px auto 0px auto; width:90px;}
+
+.seckillnext{height:160px; overflow:hidden; border-top:1px solid #ccc;} 
+.seckillnext h2{background:url(../images/index.gif) no-repeat -215px -231px; height:30px; width:120px; }
+.scn-time{margin-bottom:10px; line-height:25px; text-indent:10px; background:#f3f3f3; border:1px solid #e3e3e3; border-width:1px 0px; }
+.scn-img{ float:left; display:inline; margin-left:5px;  width:80px; height:80px; text-align:center; }
+.scn-price, .scn-name{float:right; display:inline; margin-right:10px; width:80px;}
+
+
+
+/** 特卖专区 **/
+.saletitle{float:left; margin-top:10px; position:relative; width:978px; background:url(../images/index.gif) repeat-x left bottom; height:38px; line-height:38px; text-align:right; border:1px solid #ccc;}
+#salehot, #special{position:absolute; left:-1px; top:-1px; width:260px; height:40px; overflow:hidden; text-align:left; text-indent:-999em;}
+#salehot{background:url(../images/index.gif) no-repeat left -168px;}
+#special{background:url(../images/index.gif) no-repeat left -100px;}
+.saletitle a{padding-right:10px;}
+
+.salehotbox{float:left; width:978px; margin-top:10px; background:url(../images/indexback.gif) repeat left top; border:1px solid #ccc;}
+.hpbox{ float:left; margin-top:10px; width:195px; height:210px; overflow:hidden; text-align:center; }
+.hp-name{margin:5px 20px 0px 20px; padding:0px; height:40px; overflow:hidden;}

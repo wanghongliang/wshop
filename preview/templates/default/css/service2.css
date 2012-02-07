@@ -1,0 +1,35 @@
+#root{float:left; width:980px; height:30px; line-height:30px; font-family:'宋体'; color:#999; border-bottom:1px solid #dcdcdc;}
+
+.colors2{color:#f60;}
+
+.sleft{float:left; width:180px;}
+.stitle, .stitle2{height:30px; text-indent:10px; font:bold 12px/30px '宋体'; color:#02600E; background:url(../images/puback.gif) repeat-x left -430px; border:1px solid #dcdcdc;}
+
+.snav{ list-style:none; margin:0px; padding:0px; text-indent:25px; border:1px solid #dcdcdc; border-top:0px;}
+.snav li{  line-height:30px;}
+.snav li.l{ border-bottom:1px dotted #aaa; margin:0px 5px; background:url(../images/contact_icon.jpg) no-repeat 5px center; }
+.smenu{list-style:none; margin:0px; padding:0px; text-indent:30px; border:1px solid #dcdcdc;}
+
+.smenu li{background:#ECF5FF; line-height:30px;}
+.smenu li ul{list-style:none; margin:0px; padding:5px 0px; background:#fff;}
+.smenu li ul li{line-height:25px; background:#fff url(../images/service.gif) no-repeat 8px -78px;}
+.asearch{display:block; font-weight:bold; background:url(../images/service.gif) 5px top;}
+.ago{display:block; font-weight:bold; background:url(../images/service.gif) 5px -40px;}
+.snews{list-style:none; margin:0px; padding:5px 0px; text-indent:20px; border:1px solid #dcdcdc;}
+.snews li{padding:2px 0px; background:url(../images/service.gif) no-repeat left -98px;}
+
+.sgform{padding:20px; background:#f4f6fc; border:1px solid #dcdcdc;}
+.sgform p{padding:5px 0px;}
+.sgbtn{padding:5px 10px; border:1px solid #D3DAED; background:url(../images/puback.gif) repeat-x left -430px; cursor:pointer;}
+.sgtab{  font-size:12px;text-align:left; }
+.sgtab th{padding:5px 5px; background:#F4F6FC;}
+.sgtab td{padding:5px 5px;}
+.sright{float:right; width:790px;}
+
+.reform{font:normal 12px/20px '宋体';}
+.reform th{padding:5px; font-weight:normal; text-align:right;}
+.reform td{padding:5px;}
+
+
+#validate{ border:1px solid #eee; }
+.pages{  border:1px solid #eee;  padding:20px; min-height:300px; _height:300px;}

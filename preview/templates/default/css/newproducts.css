@@ -1,0 +1,59 @@
+﻿html{background:#EBFDD9;}
+#mainbox{  }
+#menudiv{ height:40px;}
+.b-white{background:#fff;}
+.c-gray{color:#999;}
+.fsbox{float:left; width:980px;text-align: center;}
+
+#newtitle{float:left; width:980px; background:#999;}
+#newtitle h2{float:left; width:200px; height:40px; overflow:hidden; text-indent:-999em; font:bold 18px/40px '微软雅黑'; color:#fff; background:#f60 url(../images/newtitle.gif) no-repeat left top;}
+#newtime{float:left; width:700px; list-style:none; margin:0px; padding:0px; font:bold 14px/40px '宋体'; color:#e3e3e3;}
+#newtime li{float:left; width:150px; text-align:center; border-right:1px solid #ccc;}
+#newtime li a{display:block; color:#fff;}
+#newtime li a:hover{text-decoration:none; background:#aaa;}
+
+.sprobox{float:left; list-style:none; display:inline; margin:30px 0px 0px 28px; padding:0px; width:210px; height:310px; overflow:hidden;}
+.spimg{text-align:center; padding-bottom:10px; background:#fff; border:1px solid #c4c4c4;}
+.spimg img{display:block; margin:10px 0px 0px 15px;}
+.spname{margin:0px 20px; padding:0px; height:40px; overflow:hidden;}
+.sprobox dd{margin:0px 20px; padding:0px;}
+.sprice{font:normal 12px/33px 'Arial';}
+.spbuy{display:block; margin:5px auto 0px auto; width:170px; height:45px; overflow:hidden; text-indent:-999em; background:url(../images/newbuy.gif) no-repeat left top;}
+
+/******* 分页显示 ***********/
+.page{clear:both; padding:20px 0px; text-align:center; }
+.page span a{  font:bold 14px/20px 'Arial'; color:#333; border:1px solid #666;}
+.page a{padding:3px 5px; font:bold 14px/20px 'Arial'; border:1px solid #999;}
+.page a.atext{font-weight:normal;}
+.page .page_current{  background:#f60; color:#fff; border:1px solid #f60}
+.page a:hover{text-decoration:none; border:1px solid #f60;color:#fff; background:#f60; }
+#spcontent{clear:both; margin:0px auto; width:980px; background:#fff;}
+
+
+
+#bbv{position:absolute;top:200px;right:0px;/**_top:expression(documentElement.scrollTop+300);**/}
+#prel{position:relative;}
+#dbimg{position:absolute; top:0px; left:-30px; width:30px;height:90px;background:url(../images/dubi.gif) no-repeat top left;text-align:center;color:#fff;font-weight:bold;cursor:pointer;}
+#dbimg span{display:block; padding-top:50px; font:bold 16px/30px 'Arial';}
+#pshou{position:absolute; top:93px; left:-30px;}
+#pshou a{display:block; width:30px; height:90px; overflow:hidden; text-indent:-999em; background:url(../images/dubi.gif) no-repeat left -91px;}
+#xsyc{border:2px dotted #f00;position:absolute;line-height:10px;width:15px;height:15px;top:-20px;opacity:0.9;filter:alpha(opacity=90);z-index:999;}
+#dbnr{display:none;border:1px solid #02921B;background:#FCFCFC;width:272px; min-height:185px; _height:185px; z-index:9; text-align:left;}
+#dbnr b{display:block;clear:both;height:30px; font:bold 14px/30px '宋体'; background:url(../images/puback.gif) repeat-x left -430px;}
+#dbnr b span{float:left; text-indent:10px;}
+#dbnr b span.span2{float:right;padding:7px 5px 0px 0px;font-size:12px;font-weight:normal;cursor:pointer;}
+#dbnr ul{width:246px;overflow:hidden;padding:0 0 4px 10px;}
+#dbnr ul li{width:240px;overflow:hidden;margin-top:10px; padding:0 0 7px 0;color:#333;}
+#dbnr img{cursor:pointer;}
+#dbnr .img{float:left; margin-right:10px; border:1px solid #dcdcdc;}
+.pkbut{clear:both;height:45px;background:url(../images/pkline.gif) repeat-x;padding-left:60px;}
+.pkbut span{display:inline-block;float:left;width:65px;height:22px;background:url(../images/allbut4.gif) no-repeat;text-align:center;line-height:22px;color:#C54870;margin:12px 18px 0 0;cursor:pointer;}
+.pkbut span a:link,.pkbut span a:visited{text-decoration:none;color:#C54870;}
+.pkbut span a:active,.pkbut span a:hover{text-decoration:none;color:#C54870;}
+#tishi{width:100%;text-align:center;padding-bottom:10px;}
+
+/** 产品比较 **/
+.compare{ border-collapse:collapse; width:100%; border:1px solid #dcdcdc;margin-top:10px; }
+.compare tr td{ border-top:1px solid #dcdcdc; font-size:12px; padding:5px;}
+.compare tr th{ background:#f3f3f3; font-size:12px;padding:5px;  font-weight:normal; color:#333; text-align:right; padding-right:10px; border-right:1px solid #dcdcdc; border-bottom:1px solid #dcdcdc;}
+.compare tr th.title{ border:1px solid #dcdcdc; border-width:1px 1px; }

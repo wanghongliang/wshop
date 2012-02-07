@@ -1,0 +1,35 @@
+﻿.pad-b20{padding-bottom:20px;}
+.bd{border:1px solid #ccc;}
+#thumbs{float:left; margin-top:10px; width:720px; }
+#latestnew{float:right; margin-top:10px; width:248px;    background:url(../images/stitle.jpg) repeat-x left top;  border:1px solid #ccc;}
+#latestnew h2{float:left; width:130px; height:30px; font:bold 14px/30px 'Arial'; text-indent:10px; color:#085B0D; background:url(../images/stitle2.jpg) no-repeat left top;}
+.mores{float:right; display:inline; margin-right:10px; font:normal 12px/30px '宋体';　color:#666;}
+.newul{clear:both; list-style:none; margin:0px; padding:5px 0px;}
+.newul li{height:26px; line-height:26px; overflow:hidden; text-indent:20px; background:url(../images/dot1.gif) no-repeat 10px 12px;}
+.fnews{float:left; margin-top:10px; width:978px; border:1px solid #ccc;}
+.ntitle{padding-right:10px; height:30px; font:normal 12px/30px '宋体'; text-align:right; background:url(../images/stitle.jpg) repeat-x left top;}
+.ntitle h2{float:left; width:130px; font:bold 14px/30px 'Arial'; text-align:left; text-indent:10px; color:#085B0D; background:url(../images/stitle2.jpg) no-repeat left top;}
+.nbox{float:left; display:inline; margin:20px 0px 0px 30px; width:290px;}
+.nbox dt{float:left; margin:0px; padding:0px; width:80px; border:1px solid #e3e3e3;}
+.nbox dd{float:right; margin:0px; padding:0px; width:200px;}
+
+.flv980{float:left; width:980px; margin-top:10px;}
+.fnleft{float:left; width:718px;  border:1px solid #ccc; margin-top:10px; padding:0px 0px 10px 0px;}
+.fnright{float:right; width:483px;  height:492px; border:1px solid #ccc;}
+.serli{list-style:none; margin:0px; padding:5px 0px; }
+.serli li{font:normal 12px/25px 'Arial'; text-indent:20px; }
+
+.prodl{list-style:none; float:left; display:inline; margin:13px 0px 0px 10px; padding:0px; width:323px;}
+.prodl dt{float:left; margin:0px; padding:0px; width:60px; height:60px; border:1px solid #e3e3e3;}
+.prodl dd{float:right; margin:0px; padding:0px; width:250px;}
+.c-grall{color:#999;}
+
+.fright780{float:right; width:780px;}
+#listtab td{padding:5px; color:#999;}
+#listtab td a{padding-left:20px;}
+
+/******* 分页显示 ***********/
+.page{clear:both; padding:10px 0px; text-align:center; margin-top:20px; border-top:1px dashed #ccc;} 
+
+.replay{ background:#f0f0f0; margin-left:10px; width:96%; padding:0px;text-indent:10px;  }
+.comment li{ background:url("../images/ask.gif") no-repeat scroll 10px 6px transparent; padding:0px 0px 5px 15px; border-bottom:1px dotted #e2e2e2; }

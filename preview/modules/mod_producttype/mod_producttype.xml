@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>广告分类显示</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>广告分类显示.</description>
+
+	<files>
+    	<filename module="mod_producttype" >mod_producttype.php</filename>
+  	</files>
+ 	<position>
+		left
+	</position>
+	<params>
+		<param name="producttype" type="producttype" default="1" label="选择产品分类" description="指定显示那一个分类下的子分类" />
+				<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+	</params>
+</install>

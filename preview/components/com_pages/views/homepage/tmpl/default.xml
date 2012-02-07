@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="首页模块信息">
+		<message>
+			<![CDATA[首页模块信息]]>
+		</message>
+	</layout>
+	<state>
+		<name>显示首页模块信息</name>
+		<description>内容展示</description>
+		<params>
+			<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="图片" description="PARAMIMAGE"  />
+			<param name="id" type="article" default="0" label="选择一篇文件" description="选择一篇文件" />
+	
+		</params>
+	</state>
+</metadata>

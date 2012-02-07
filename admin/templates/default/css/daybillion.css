@@ -1,0 +1,337 @@
+/**
+ * 版权：深圳市天亿网络技术有限公司
+ * 作者：王洪亮
+ * 备注：所有布局用 db- 作为缀，多个英文单词之间用下划线相连，所有字母用小写
+ */
+
+/** 测试边框 **/
+.bgray{
+	border:1px solid gray;
+}
+.bblue{
+	border:1px solid blue;
+}
+.mh10{ min-height:10px; }
+.mh30{ min-height:30px; }
+.db-mh20{	min-height:20px; }
+.mh100{ min-height:100px;  }
+.mh200{ min-height:200px;	}
+
+/** 向左浮动 **/
+.db-fl{
+	float:left;
+}
+
+/** 向右浮动 **/
+.db-fr{
+	float:right;
+}
+
+/** 清除浮动 **/
+.clr{
+	display: block;
+	height:1px;
+	clear: both;
+	overflow:hidden; 
+}
+
+
+/** 宽度设置 **/
+.db-w20{ width:20%; }
+.db-w25{ width:25%; }
+
+.db-w30{ width:30%; }
+.db-w33{ width:33%; }
+.db-w35{ width:35%; }
+.db-w39{ width:39%; }
+.db-w40{ width:40%; }
+.db-w45{ width:45%; }
+.db-w47{ width:47%; }
+.db-w48{ width:48%; }
+.db-w49{ width:49%; }
+.db-w50{ width:50%; }
+
+/**　固定宽度设置 **/
+.db-w1{	width:300px; }
+.db-w2{	width:265px; }
+.db-w3{	width:300px; }
+.db-w4{	width:680px; }
+
+/** 内框留白 **/
+.db-pl5{  padding-left:5px; }
+.db-pl10{ padding-left:10px; }
+.db-pl15{ padding-left:15px; }
+
+.db-pr5{padding-right:5px;}
+
+.db-pt2{ padding-top:2px; }
+.db-pt3{ padding-top:3px; }
+.db-pt5{ padding-top:5px; }
+.db-pt6{ padding-top:6px; }
+.db-pt7{ padding-top:7px; }
+.db-pt8{ padding-top:8px; }
+.db-pt10{ padding-top:10px;}
+
+.db-pb2{ padding-bottom:2px; }
+.db-pb3{ padding-bottom:3px; }
+.db-pb5{ padding-bottom:5px; }
+.db-pb8{ padding-bottom:8px; }
+
+.db-pb10{ padding-bottom:10px;}
+
+
+.db-ptb10{ padding:10px 0px; }
+.db-plr10{ padding:0px 10px; }
+
+.db-padding1{ padding:1px; }
+.db-padding5{ padding:5px; }
+.db-padding10{ padding:10px; }
+
+/** 框外留白 **/
+.db-mt5{ margin-top:5px; }
+.db-mt3{ margin-top:3px; }
+.db-mt8{margin-top:8px;}
+.db-mt10{ margin-top:10px; }
+
+
+.db-ml5{ margin-left:5px; }
+.db-ml8{margin-left:8px;}
+.db-ml10{ margin-left:10px; }
+
+.db-mr5{ margin-right:5px; }
+.db-mr8{ margin-right:8px; }
+.db-mr10{ margin-right:10px; }
+
+
+.db-mb8{margin-bottom:8px;}
+
+
+
+/** 边框 **/
+.db-border{ border:1px solid #dadada; }
+.db-bl{ border-left:1px solid #dadada; }
+.db-br{ border-right:1px solid #dadada; }
+.db-bt{ border-top:1px solid #dadada; }
+.db-bb{ border-bottom:1px solid #dadada; }
+
+.db-bt-dashed{ border-top:1px dashed #dadada; }
+.db-bb-dashed{ border-bottom:1px dashed #dadada; }
+
+
+
+/** 文本框的宽度 **/
+.db-input100{ width:100px }
+.db-input120{ width:120px; }
+
+/** 字体色 **/
+.db-fc3{ color:#333333;}
+.db-fc6{ color:#666666;}
+.db-fcred{ color:#E20000;}
+.db-fc_w{ color:#E20000;font-weight:bold;}		/**标题加色**/
+
+/** 文字大小 **/
+.db-fs14{ font-size:14px; line-height:24px; }
+.db-fs12{ font-size:12px; line-height:22px; }
+
+
+/** 文字行高 **/
+.db-flh22{ line-height:22px; }
+.db-flh24{ line-height:24px; }
+.db-flh25{ line-height:25px; }
+.db-flh26{ line-height:26px; }
+.db-flh28{ line-height:28px; }
+
+/** 对，方式 **/
+.db-align-center{
+	text-align:center;
+}
+
+
+/** 背景 **/
+.db-bgfc{ background:#fcfcfc; }
+.db-bgf6{ background:#f6f6f6; }
+.db-bgf0{ background:#f0f0f0; }
+
+.db-bgb{ background:#F2F3FB; }
+
+
+/** 标题  font title **/
+.db-tt1{
+	height:28px;
+	overflow:hidden;
+	line-height:30px;
+ 	font-size:14px;font-weight:bold;
+	background:url(../images/d.gif) repeat-x left -160px;
+	/**color:#02469B;**/
+}
+
+
+/** H1,H2,H3,H4,H5 **/
+h1,h2,h3,h4,h5{ font-weight:bold; }
+h1{	font-size:20px; font-family:黑体; font-weight:normal; }
+h2{ font-size:18px; font-family:黑体; font-weight:normal; }
+h3{ font-size:14px;font-weight:bold; }
+
+a{ text-decoration:none; cursor:pointer; }
+
+/** a 标签也是 **/
+a,a:hover{
+	color: black;
+	text-decoration:inherit;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+ }
+
+a:hover{ color:red; }
+
+ul,ul li{ list-style:none; display:inline; }
+select{ font-size:12px;}
+
+
+/**** 常用图标三角 ***/
+.dot,.dot1{
+	width:10px;
+	height:22px;
+	float:left;
+	background:url(../images/d.gif) no-repeat left -200px;
+}
+
+.dot1{ width:18px; background:url(../images/d.gif) no-repeat left -224px; }
+
+
+
+/** HTML 网页背景 **/
+body {
+	text-align: center;
+ 	line-height:28px;
+	font-size:12px; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow-x:hidden;
+}
+
+
+#doc,#doc2,#doc3 {
+  margin: auto;
+  text-align: left;
+  background:#F7F6F1;
+}
+
+
+
+
+
+
+
+
+/** 主体外框背景 **/
+#doc{
+ }
+
+/** 主体 **/
+#doc3{
+	margin: auto 0px;
+	width: 100%;
+ 	*height:600px;
+	_height:600px;
+}
+
+/** 分页信息 **/
+.recent_page{
+	text-align:left;
+ 	line-height:22px;
+}
+.page{
+	float:right;
+	height:22px;
+	line-height:22px;
+	width:100%;
+	margin:5px 0px;
+}
+.page .pr{ float:right; }
+.page .pl{ float:left; }
+.page_num a,.page_current{
+	float:left; 
+	padding:0px 5px;
+	text-align:center;
+	margin-right:5px;
+	border:1px solid #ECECEC;
+	cursor:pointer;
+}
+.page_num a{
+background:url(../images/tablethbg.gif) repeat-x #E9F3FF left top; 
+background:#2B7233;
+}
+.page_num a{ color:white; }
+.page_num a:hover{ text-decoration:underline; color:#eee; background:#aaa;}
+
+/** 当前 **/
+.page_current{ background:#f0f0f0; }
+
+.page_num_now{
+	float:left;
+	width:22px;
+	margin-right:5px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.page_num_word{
+	float:left;
+ 	margin-right:5px;
+	text-align:center;
+	border:1px solid #ECECEC;
+	padding:0px 5px;
+	background:url(../images/tablethbg.gif) repeat-x #E9F3FF left top; 
+	background:#f0f0f0;
+}
+.page_num_word{ color:gray;}
+.page_num_word a{ color:black;}
+.pageframe{
+	border:1px solid #ddd;
+	padding:2px 0px;
+	color:gray;
+}
+.pageframe a{
+	color:black;
+}
+
+
+
+
+
+/*** 工具 ***/
+.title_tool{
+	background:#f0f0f0;
+}
+
+/**
+ * 消息
+ */
+.message{
+	width:92%;
+	line-height:35px;
+	border:1px solid #eee;
+ 	margin:auto;
+	padding-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background:#f9f9f9 ;
+	color:red;
+	text-align:left;
+
+}
+#system-message
+{
+	display:none;
+	position:fixed;
+	_position:absolute;
+	*position:absolute;
+	top:150px;
+	width:500px;
+	border:8px solid #FFD700;
+	background:#FFFFDD;
+}
+#system-message dt{ padding:0px 10px; margin:0px; font-weight:bold;}
+#system-message dd{ padding:0px 10px; margin-top:0px;}
+#system-message dd.messageclose{  cursor:pointer; text-align:right; font-weight:bold; }

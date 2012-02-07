@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+        <name>商品</name>
+        <creationDate>2010-1-11</creationDate>
+        <author>王洪亮</author>
+        <authorEmail>daybillion@yahoo.com.cn</authorEmail>
+        <authorUrl>http://www.daybillion.com</authorUrl>
+		<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+		<version>0.1</version>
+        <installfile>install.products.php</installfile>
+        <uninstallfile>uninstall.products.php</uninstallfile>
+		<folder>front</folder>
+ 		<admin>
+			<folder>menage</folder>
+		</admin>
+</install>

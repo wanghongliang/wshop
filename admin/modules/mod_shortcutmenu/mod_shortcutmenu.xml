@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>控制面板快捷菜单</name>
+	<author>daybillion.com</author>
+	<creationDate>2009-7-7</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Displays a menu.</description>
+	<files>
+		<filename module="mod_mainmenu">mod_mainmenu.php</filename>
+	</files>
+	<params>
+ 
+		<param name="window_open" type="text" default="" label="Target Position" description="PARAMTARGETPOSITION" />
+	</params>
+ </install>

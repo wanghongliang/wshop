@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<state>
+		<name>Menu Link</name>
+		<description>Menu Link parameters...</description>
+		<params>
+			<param name="menu_item" type="menuitem" state="1" disable="menulink, separator" label="请选择菜单" description="Menu Item to link to..." />
+		</params>
+ 	</state>
+</metadata>

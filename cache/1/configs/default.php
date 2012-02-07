@@ -1,0 +1,15 @@
+<?php return array (
+  'title' => '格力在线',
+  'email' => '',
+  'published' => '0',
+  'attribs' => '',
+  'metakey' => '格力在线',
+  'metadesc' => '格力在线',
+  'template' => 'default',
+  'uid' => '1',
+  'logo' => '/media/1/logo[2].gif',
+  'banner' => NULL,
+  'bannertype' => '1',
+  'column' => '2',
+  'options' => 'a:6:{s:10:"dateformat";s:11:"Y-m-d H:i:s";s:14:"currencyformat";s:8:"￥%s元";s:10:"thumbwidth";s:3:"120";s:11:"thumbheight";s:3:"120";s:8:"imgwidth";s:3:"230";s:9:"imgheight";s:3:"230";}',
+); ?>

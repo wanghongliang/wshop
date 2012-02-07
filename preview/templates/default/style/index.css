@@ -1,0 +1,65 @@
+ol,ul,dl,dt,dd{list-style:none; margin:0px; padding:0px;}
+.newpbox{ height:126px; list-style:none; margin:0px; padding:2px 0px; border:1px solid #c4c4c4; border-top:none; background:white;}
+.newpbox dt, .newpbox dd{margin:0px; padding:0px;}
+.newpbox .img{float:left; display:inline; margin:2px 0px 0px 10px;}
+.newpbox .name{clear:both; margin:0px 10px; padding:0px 0px; height:40px; overflow:hidden; line-height:16px;}
+.newpbox .gprice{float:left; display:inline; margin:25px 0px 0px 20px;}
+.price{padding-left:10px; background:url(../images/dol.gif) no-repeat left 5px; color:#f60; font:bold 18px/20px 'Arial';}
+
+#hcenter{float:left; display:inline; margin-left:10px; width:580px;}
+#limited{position:relative; margin-top:10px; height:35px; overflow:hidden; text-indent:-999em; background:url(../images/xina.gif) no-repeat left top;}
+.hmore{position:absolute; top:8px; right:0px; width:65px; height:20px; font:normal 12px/20px '宋体'; text-align:center; text-indent:0px; color:#fff; background:url(../images/more.gif) no-repeat left top;}
+.limitbox{float:left; display:inline; margin:10px 0px 0px 18px; padding-bottom:10px; width:170px; text-align:center;}
+
+.good-time{height:24px; line-height:24px; color:#999; background:url(../images/limited.gif) repeat-x left top; border:1px solid #e3e3e3;}
+.good-time span{padding:0px 2px; font-weight:bold; color:#333; }
+.good-img{margin:5px auto; width:130px; height:130px; overflow:hidden;}
+.good-name{height:40px; overflow:hidden;}
+
+#groupbuy{position:relative; clear:both; height:30px; overflow:hidden; text-indent:-999em; background:url(../images/group.gif) no-repeat left top;}
+.tuanbox{float:left; display:inline; margin:10px 0px 0px 10px; width:275px;}
+.tuan-img{float:left; width:130px; height:150px;}
+.tuan-name{float:right; width:130px; margin-top:10px; }
+.tuan-price{float:right; width:130px;}
+.tuan-person{clear:both; font:normal 14px/30px '微软雅黑'; height:30px;   text-indent:60px; background:#FFF2D7 url(../images/user.gif) no-repeat 40px center;}
+
+.saletitle{float:left; margin-top:10px; width:980px;}
+
+.hthum{float:left; margin-top:10px; width:980px;}
+
+
+
+/** 最新公告 **/
+#hnews{ border:1px solid #C2C2C2; background:url(../images/i.gif) no-repeat 3px top; height:32px; }
+#hnewsul{ border:1px solid #c2c2c2; border-width:0px 1px;}
+#hnewsul li{ background:url(../images/t2.gif) no-repeat -2px -171px; padding-left:18px; line-height:30px; border-bottom:1px solid #c2c2c2; }
+
+/** 秒杀专区 **/
+#seckill{ margin-top:10px; }
+#seckilltitle{ background:url(../images/i.gif) no-repeat -6px -32px; height:52px; }
+#seckill .good-img{ margin-top:0px; }
+#seckill .good-name{ text-align:center; width:90%; margin:auto; color:#555;}
+#seckill .good-price{ color:#aaa; padding:5px 0px 5px 10px;}
+#seckill .seckilltime{ padding-left:8px; }
+#seckill .seckilltime div{ padding-left:3px; }
+#seckill .seckilltime span{ float:left;padding-top:8px; margin-top:2px; }
+#seckill #th,#seckill #ti,#seckill #ts{width:45px;height:30px;  background:url(../images/i.gif) no-repeat -155px -100px; color:white; font-size:24px; text-align:center;padding-top:8px;}
+#seckillbox{ border:1px solid #FC5C11; border-width:0px 1px 1px 1px; height:290px; }
+
+.seckillnext{border:1px solid #FC5C11; border-width:0px 1px 1px 1px; height:160px; } 
+.seckillnext h2{  background:url(../images/i.gif) no-repeat 5px -98px; height:30px; width:120px; }
+.seckillnext .good-time{ background:none; font-weight:bold; padding-left:10px; border-width:1px 0px; }
+.seckillnext .good-img{ float:left; width:80px; height:60px; text-align:center; padding:5px 0px 0px 10px; }
+.seckillnext .good-price{ float:left; margin-top:10px; }
+
+
+
+/** 特卖专区 **/
+.saletitle{background:url(../images/t1.gif) repeat-x 0px -40px; height:35px;  margin-bottom:8px; }
+.saletitle h2{background:url(../images/t1.gif) no-repeat -2px -2px; height:35px; width:200px; float:left; }
+.saletitle h2.p{background:url(../images/t1.gif) no-repeat -2px -116px; height:35px; width:200px; float:left; }
+.saletitle .bgr{background:url(../images/t1.gif) no-repeat right -78px; height:35px; padding-right:5px; }
+.saletitle a{ float:right; margin:5px 15px 0px 2px; }
+
+#salehot{  clear:both;display:block;border:1px solid #c2c2c2; height:430px;   }
+#salehot .hpbox{ float:left; width:175px; text-align:center; padding:5px 10px; }

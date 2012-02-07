@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>企业LOGO</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>企业LOGO.</description>
+
+	<files>
+    	<filename module="mod_logo" >mod_logo.php</filename>
+  	</files>
+	<position>
+		header
+	</position>
+ 
+	<params>
+ 
+		<param name="logo" type="upload" default="" label="LOGO图片" description="用于LOGO图片的显示" />
+
+	</params>
+</install>

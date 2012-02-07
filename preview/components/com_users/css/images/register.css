@@ -1,0 +1,319 @@
+/**头部样式**/
+.sub_topbar{
+	height:80px;
+	background:url(images/sub_topbar_bg.jpg);
+}
+.sub_top_logo{
+	float:left;
+	display:inline;
+	margin:5px 0 0 27px;
+	height:75px;
+	overflow:hidden;
+}
+.topbar_ad{
+	float:left;
+	margin:38px 0 0 45px;
+	font-size:14px;
+	font-weight:bold;
+	color:#A58029;
+}
+/**主体内容样式**/
+.sub_content_top{
+	height:20px;
+	background:url(images/sub_content_top.jpg);
+}
+.sub_content_bg{
+	min-height:390px;
+	padding-left:24px;
+	background:url(images/sub_content_bg.jpg) repeat-x left top;
+}
+.sub_content{
+	min-height:390px;
+	padding-left:38px;
+	background:url(images/sub_content_border.jpg) repeat-y left top;
+}
+.sub_content_bottom{
+	height:15px;
+	background:url(images/sub_content_bottom.jpg);
+}
+.content{
+	width:880px;
+}
+.content_title{
+	height:35px;
+	line-height:35px;
+	margin-bottom:5px;
+}
+.title_dot{
+	float:left;
+	width:35px;
+	height:35px;
+	margin-right:5px;
+	display:inline;
+	background:url(images/reg_title_dot.gif);
+}
+.title_name{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#535353;
+}
+.path{
+	text-align:right;
+	color:#999999;
+	line-height:35px;
+}
+
+/**注册类型**/
+.reg_type_box{
+	width:880px;
+	height:258px;
+	background:url(images/reg_type_bg.jpg);
+}
+.left_border{
+	float:left;
+	width:8px;
+	height:258px;
+	overflow:hidden;
+	background:url(images/reg_type_left.jpg);
+}
+.left_box,.right_box{
+	float:left;
+	width:431px;
+	height:258px;
+}
+.middle_line{
+	float:left;
+	width:1px;
+	height:258px;
+	overflow:hidden;
+	background:url(images/middle_line.jpg);
+}
+.right_border{
+	float:right;
+	width:8px;
+	height:258px;
+	overflow:hidden;
+	background:url(images/reg_type_right.jpg);
+}
+.company_info,.personal_info{
+	height:145px;
+	margin-top:40px;
+}
+.company_img,.personal_img{
+	float:left;
+	width:145px;
+	height:145px;
+	margin-left:65px;
+	display:inline;
+	overflow:hidden;
+}
+.company_advantages{
+	color:#990000;
+}
+.company_advantages,.personal_advantages{
+	margin-top:15px;
+	line-height:24px;
+}
+.type_advantages_dot{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:4px;
+	display:inline;
+}
+.company_button,.personal_button{
+	padding-left:116px;
+}
+
+
+/**注册表单**/
+.register_table{
+	float:left;
+	width:615px;
+	border-top:1px dashed #9C9C9C;
+}
+.register_table .last{
+	padding:10px 0 0 135px;
+	border-top:1px dashed #9C9C9C;
+}
+.register_table .title{
+	text-align:right;
+	font:14px normal;
+	color:#535353;
+	padding-right:10px;
+	width:125px;
+	height:35px;
+}
+.reg_input_text{
+	width:215px;
+	height:22px;
+	line-height:22px;
+	border:1px solid #DCD8D0;
+}
+.reg_input_text2{
+	width:160px;
+	height:22px;
+	float:left;
+	line-height:22px;
+	border:1px solid #DCD8D0;
+}
+.tips_left{
+	float:left;
+	width:8px;
+	height:35px;
+	overflow:hidden;
+	background:url(images/tips_left.jpg);
+}
+.tips{
+	border:1px solid #BDE28B;
+	border-left:none;
+	height:33px;
+	padding-left:10px;
+	line-height:33px;
+}
+.code{
+	float:right;
+	margin-top:2px;
+}
+.agreement{
+	padding-top:8px;
+	float:left;
+	margin-right:15px;
+	display:inline;
+}
+.agree:link{
+	text-decoration: underline;	
+}
+.register_advantages{
+	float:right;
+	width:240px;
+	height:200px;
+}
+.register_advantages_top{
+	height:5px;
+	overflow:hidden;
+	background:url(images/reg_advantages_top.jpg);
+}
+.register_advantages_center{
+	height:190px;
+	background:url(images/reg_advantages_center.jpg);
+}
+.register_title{
+	font-size:14px;
+	width:210px;
+	margin:0 auto;
+	padding-top:10px;
+	padding-bottom:5px;
+
+	color:#A58029;
+	border-bottom:1px solid #CCCCCC;
+}
+.register_title .title{
+	font-weight:bold;
+}
+.register_advantages_bottom{
+	height:5px;
+	overflow:hidden;
+	background:url(images/reg_advantages_bottom.jpg);
+}
+.reg_advantages{
+	width:210px;
+	margin:0 auto;
+	margin-top:5px;
+}
+.reg_advantages li{
+	height:30px;
+	line-height:30px;
+}
+.reg_advantages_dot{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:7px;
+	display:inline;
+}
+.advantages_word{
+	float:left;
+	height:30px;
+	width:170px;
+	color:#999999;
+}
+
+/**激活邮箱和注册成功样式**/
+.title_info{
+	width:600px;
+	margin:0 auto;
+	font-weight:bold;
+	color:#666666;
+	font-size:14px;
+	line-height:45px;
+}
+.right_dot{
+	float:left;
+	width:45px;
+	height:45px;
+	background:url(images/right_dot.jpg);
+}
+.register_info{
+	width:600px;
+	margin:0 auto;
+	border-top:1px dashed #CCCCCC;
+	border-bottom:1px dashed #CCCCCC;
+	padding:10px;
+	margin-bottom:25px;
+	color:#666666;
+}
+.id_info{
+	color:#980000;
+	
+}
+.register_info a:link{
+	color:#A68129;
+	text-decoration: underline;	
+}
+
+/**底部样式**/
+.foot{
+	height:70px;
+	margin-top:15px;
+	overflow:hidden;
+	background:url(images/foot_bg.jpg);
+}
+.foot_logo{
+	float:left;
+	margin:10px 10px 0px 30px;
+	display:inline;
+}
+.foot_line{
+	float:left;
+	width:1px;
+	height:60px;
+	background:url(images/foot_line.jpg);
+	margin-top:10px;
+}
+.foot_menu{
+	float:left;
+	width:770px;
+	height:25px;
+	line-height:25px;
+	margin:15px 0 0 40px;
+	text-align:center;
+}
+.foot_menu .name{
+	float:left;
+	width:70px;
+}
+.foot_menu .line{
+	float:left;
+	width:10px;
+	height:22px;
+	line-height:22px;
+}
+.copyright{
+	margin-left:50px;
+	display:inline;
+	float:left;
+	height:58px;
+	color:#666666;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="留言表单">
+		<message>
+			<![CDATA[留言表单]]>
+		</message>
+	</layout>
+	<state>
+		<name>留言表单</name>
+		<description>留言表单</description>
+		<params>
+ 
+		</params>
+	</state>
+</metadata>

@@ -1,0 +1,23 @@
+﻿html{background:#fdfdd9;}
+.b-white{background:#fff;}
+.c-gray{color:#999;}
+.fsbox{float:left; width:980px;}
+
+.sprobox{float:left; list-style:none; display:inline; margin:20px 0px 0px 19px; padding:0px; width:220px; height:340px; overflow:hidden; text-align:left; background:#f3f3f3;}
+.spimg{position:relative; margin:10px 10px 10px 10px; text-align:center; width:200px; height:200px; overflow:hidden; background:#fff; border:1px solid #c4c4c4;}
+.spimg img{display:block; margin:10px 0px 0px 10px;}
+.spname{margin:0px 20px; padding:0px; height:40px; overflow:hidden;}
+.sprobox dd{margin:0px 20px; padding:0px;}
+.sprice{height:35px; font:normal 12px/35px 'Arial';}
+.spge{float:right; width:70px; height:33px; overflow:hidden; text-indent:-999em; background:url(../images/spbtn.gif) no-repeat left top;}
+#sptitles{height:50px; overflow:hidden; line-height:999em; background:url(../images/specialtitle.gif) no-repeat center top;}
+/******* 分页显示 ***********/
+.page{clear:both; padding:20px 0px; text-align:center; }
+.page span a{  font:bold 14px/20px 'Arial'; border:1px solid #666;}
+.page a{padding:3px 5px; font:bold 14px/20px 'Arial'; border:1px solid #999;}
+.page a.atext{font-weight:normal;}
+.page .page_current{  background:#f60; color:#fff; border:1px solid #f60;}
+.page a:hover{text-decoration:none; border:1px solid #f60;color:#fff; background:#f60; }
+ 
+#spcontent{clear:both; margin:0px auto; width:980px; background:#fff;}
+.teback{display:block; position:absolute; left:-1px; top:-1px; width:54px; height:47px; font:bold 12px/47px 'Arial'; color:#fff; background:url(../images/teback.gif) no-repeat left top;}

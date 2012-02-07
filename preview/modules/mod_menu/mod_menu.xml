@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Menu</name>
+	<author>daybillion.com</author>
+	<creationDate>2009-7-7</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Displays a menu.</description>
+	<files>
+		<filename module="mod_mainmenu">mod_mainmenu.php</filename>
+	</files>
+
+	<position>
+		wrap
+	</position>
+	<params>
+		<param name="menutype" type="menutype" default="" label="选择菜单分类" description="默认的是主菜单分类" />
+		<param name="menu_style" type="list" default="list" label="菜单样式" description="菜单样式">
+			<option value="list">列表</option>
+			<option value="vert_indent">垂直</option>
+			<option value="horiz_flat">水平</option>
+ 			<option value="custom">自定义二行列表 - 门户专用</option>
+			<option value="customVI">自定义的水平列表-加分割线</option>
+		</param>
+				<param name="delkey" type="text" default="" size="15" label="不显示的菜单" description="指定不显示的菜单" />
+
+
+				<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+
+
+　	</params>
+ </install>

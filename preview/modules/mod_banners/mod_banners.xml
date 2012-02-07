@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>广告展示 组件</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>BANNER广告.</description>
+
+	<files>
+    	<filename module="mod_banner" >mod_banner.php</filename>
+  	</files>
+ 	<position>
+		wrap
+	</position>
+	<params>
+		<param name="width" type="text" default="" size="5" label="宽度" description="宽度" />
+		<param name="height" type="text" default="" size="5" label="高度" description="高度" />
+
+ 		<param name="showway" type="list" default="0" label="广告显示方式" description="广告显示方式">
+			<option value="0">多个广告排列显示</option>
+			<option value="1">FLASH渐隐效果</option>
+			<option value="2">单个图片展示</option>
+  		</param>
+ 		<param name="catid" type="advertype"  default="0"   label="请选择分类" description="指定分类显示" />
+
+		<param name="num" type="text" default="0" size="5" label="数量" description="数量" />
+
+		
+ 		<param name="showtitle" type="list" default="0" label="是否显示标题" description="是否显示标题">
+			<option value="0">否</option>
+			<option value="1">是</option>
+  		</param>
+
+		<param name="titlelink" type="text" default="" size="15" label="标题链接" description="标题链接" />
+
+		<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+
+		
+
+	</params>
+</install>

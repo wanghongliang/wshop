@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>秒杀活动展示模块</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>秒杀活动展示模块.</description>
+
+	<files>
+    	<filename module="mod_seckill" >mod_seckill.php</filename>
+  	</files>
+ 	<position>
+		home
+	</position>
+	<params>
+		<param name="catid" type="catid" com="contents" default="0"   label="请选择分类" description="指定分类显示" />
+	</params>
+</install>

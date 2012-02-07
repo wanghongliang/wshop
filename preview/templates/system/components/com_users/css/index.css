@@ -1,0 +1,233 @@
+/**顶部区域样式**/
+.index_topbar{
+	background:url(images/index_topbar_bg.jpg) no-repeat;
+	height:80px;
+}
+.index_top_logo{
+	float:left;
+	display:inline;
+	margin:5px 0 0 27px;
+	height:75px;
+	overflow:hidden;
+}
+.topbar_ad{
+	float:left;
+	margin:38px 0 0 45px;
+	font-size:14px;
+	font-weight:bold;
+	color:#A58029;
+}
+
+/**广告图和登录**/
+.content_top{
+	height:242px;
+}
+.index_banner{
+	width:676px;
+	float:left;
+	padding-left:8px;
+	background:url(images/content_top_bg.jpg);
+}
+.login_box{
+	float:left;
+	width:300px;
+}
+.login_logo{
+	margin:0 0 5px 10px;
+}
+.input_text{
+	width:170px;
+	height:18px;
+	line-height:18px;
+	border:1px solid #CCCCCC;
+}
+.login_span{
+	color:#666666;
+}
+.get_password:link{
+	color:#666666;
+	text-decoration: underline;
+}
+.reg:link{
+	color:red;
+	text-decoration: underline;
+}
+.login_right{
+	float:right;
+	width:19px;
+	height:242px;
+	background:url(images/login_right.jpg);
+}
+
+/**优势**/
+.content{
+	height:210px;
+}
+.content_left{
+	float:left;
+	width:674px;
+	height:210px;
+}
+.advantages{
+	margin-left:10px;
+	height:165px;
+}
+.advantages li{
+	float:left;
+	width:200px;
+	margin-left:10px;
+	display:inline;
+	padding:10px 5px;
+	color:#666666;
+}
+.advantages_img{
+	float:left;
+	margin:8px 8px 0 0;
+}
+.advantages_title{
+	font-size:14px;
+	font-weight:bold;
+	color:#990000;
+	line-height:25px;
+}
+
+/**注册优势**/
+.reg_advantages{
+	margin:10px 0 0 15px;
+	height:36px;
+	line-height:36px;
+	color:#990000;
+}
+.reg_advantages1{
+	float:left;
+	width:10px;
+	height:36px;
+	background:url(images/reg_advantages1.jpg);
+}
+.reg_advantages2{
+	float:left;
+	width:100px;
+	height:36px;
+	font-weight:bold;
+	text-align:center;
+	background:url(images/reg_advantages2.jpg) repeat-x left top;
+}
+.reg_advantages3{
+	float:left;
+	width:10px;
+	height:36px;
+	background:url(images/reg_advantages3.jpg);
+}
+.reg_advantages4{
+	float:left;
+	width:520px;
+	height:36px;
+	background:url(images/reg_advantages4.jpg);
+}
+.reg_advantages4 li{
+	float:left;
+	display:inline;
+	margin-left:30px;
+	line-height:36px;
+}
+.advantages_dot{
+	float:left;
+	width:9px;
+	height:11px;
+	background:url(images/advantages_dot.gif);
+	margin:11px 8px 0 0;
+	display:inline;
+}
+.reg_advantages5{
+	float:left;
+	width:10px;
+	height:36px;
+	background:url(images/reg_advantages5.jpg);
+}
+
+
+
+.content_middle{
+	float:left;
+	width:30px;
+	height:210px;
+	background:url(images/content_middle.jpg);
+}
+.login_under{
+	float:left;
+	width:260px;
+	height:210px;
+	background:url(images/login_under_bg.jpg);
+}
+.login_line{
+	width:260px;
+	height:1px;
+	font-size:0px;
+	overflow:hidden;
+	margin-top:8px;
+	background:url(images/login_line.jpg);
+}
+.articles_list{
+	color:#996B15;
+	margin:18px 0 0 10px;
+	line-height:20px;
+}
+.article_dot{
+	width:12px;
+	height:12px;
+	float:left;
+	margin:4px 5px 0;
+	display:inline;
+	background:url(images/article_dot.gif);
+}
+.content_right{
+	float:right;
+	width:39px;
+	height:210px;
+	background:url(images/content_right.jpg);
+}
+
+/**底部样式**/
+.foot{
+	height:70px;
+	margin-top:5px;
+	overflow:hidden;
+	background:url(images/foot_bg.jpg);
+}
+.foot_logo{
+	float:left;
+	margin:10px 10px 0px 30px;
+	display:inline;
+}
+.foot_line{
+	float:left;
+	width:1px;
+	height:60px;
+	background:url(images/foot_line.jpg);
+	margin-top:10px;
+}
+.foot_menu{
+	float:left;
+	width:770px;
+	height:25px;
+	line-height:25px;
+	margin:15px 0 0 40px;
+	text-align:center;
+}
+.foot_menu .name{
+	float:left;
+	width:70px;
+}
+.foot_menu .line{
+	float:left;
+	width:10px;
+	height:22px;
+	line-height:22px;
+}
+.copyright{
+	margin-left:50px;
+	display:inline;
+	float:left;
+	height:58px;
+	color:#666666;
+}

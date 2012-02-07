@@ -1,0 +1,37 @@
+.layout{
+	min-height:100px;
+	_height:100px;
+
+	border:0px solid gray;
+}
+
+
+/** 当拖动时的样式，暂不用 **/
+.clayout{ border:1px dashed gray;}
+.showposition{ position:absolute; height:100px; border:1px dashed gray; z-index:1;}
+
+
+/** 加的工具按钮框 **/
+.layout_tool{
+	position:absolute;
+	width:100px;
+	height:30px;
+ }
+
+/** 配置按钮 **/
+.lay_config , .lay_close{	
+  float:right;
+  margin-left:2px;
+  width:22px;height:32px;
+   background:url(../images/close.gif) no-repeat left 5px; 
+
+  cursor:pointer;
+}
+
+
+/** 编辑按钮 **/
+.lay_config{	 
+  background:url(../images/ico_edit.gif) no-repeat left 3px; 
+}
+
+

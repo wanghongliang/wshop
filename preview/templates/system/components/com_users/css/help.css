@@ -1,0 +1,221 @@
+/**头部样式**/
+.sub_topbar{
+	height:80px;
+	background:url(images/sub_topbar_bg.jpg);
+}
+.sub_top_logo{
+	float:left;
+	display:inline;
+	margin:5px 0 0 27px;
+	height:75px;
+	overflow:hidden;
+}
+.topbar_ad{
+	float:left;
+	margin:38px 0 0 45px;
+	font-size:14px;
+	font-weight:bold;
+	color:#A58029;
+}
+/**主体内容样式**/
+.sub_content_top{
+	height:20px;
+	background:url(images/sub_content_top.jpg);
+}
+.sub_content_bg{
+	min-height:460px;
+	padding-left:24px;
+	background:url(images/sub_content_bg.jpg) repeat-x left top;
+}
+.sub_content{
+	min-height:460px;
+	padding-left:38px;
+	background:url(images/sub_content_border.jpg) repeat-y left top;
+}
+.sub_content_bottom{
+	height:15px;
+	background:url(images/sub_content_bottom.jpg);
+}
+.content{
+	width:880px;
+}
+.help_title{
+	height:73px;
+	border-bottom:1px solid #DBC696;
+}
+.menu{
+	height:28px;
+	margin-top:45px;
+	line-height:28px;
+	padding-left:40px;
+	font-size:14px;
+}
+.menu li{
+	float:left;
+	width:80px;
+	margin-right:5px;
+	border-left:1px solid #DBC696;
+	border-top:1px solid #DBC696;
+	border-right:1px solid #DBC696;
+	text-align:center;
+}
+.menu .current_title{
+	background:url(images/current_title_bg.jpg);
+}
+.menu .current_title a:link{
+	color:#FFFFFF;
+}
+.content_title{
+	height:35px;
+	line-height:35px;
+	margin-bottom:5px;
+}
+.path{
+	text-align:right;
+	color:#999999;
+	line-height:35px;
+}
+
+/**帮助中心**/
+.left{
+	float:left;
+	width:225px;
+}
+.left_sidebar{
+	float:left;
+	width:225px;
+	padding-bottom:8px;
+	border:1px solid #E8E8E8;
+	background:#F8F8F8;
+}
+.sidebar_title{
+	width:205px;
+	height:30px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	padding-left:20px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.sub_menu{
+	width:205px;
+	margin:0 auto;
+	line-height:25px;
+}
+.sub_menu li{
+	font-size:14px;	
+}
+.sub_menu_dot{
+	float:left;
+	width:13px;
+	height:13px;
+	margin:6px 4px;
+	display:inline;
+	background:url(images/sub_menu_dot.gif);
+}
+.space{
+	height:15px;
+	width:205px;
+}
+.faq_list{
+	width:205px;
+	margin:0 auto;
+	height:220px;
+	overflow-y:scroll;
+}
+.faq_list li{
+	line-height:24px;
+	border-bottom:1px dashed #C4C4C4;
+}
+.faq_list_dot{
+	float:left;
+	width:12px;
+	height:12px;
+	margin:6px 6px 0 0;
+	background:url(images/faq_list_dot.gif);
+}
+.feedback_img{
+	margin:8px 0 0 22px;
+}
+.right_content{
+	float:right;
+	width:625px;
+}
+.right_content li{
+	float:left;
+	width:200px;
+	margin-top:40px;
+}
+.help_dot{
+	float:left;
+	width:40px;
+	height:40px;
+	border-right:1px dashed #CECECE;
+	margin-right:10px;
+	display:inline;
+}
+.help_main_title{
+	font-size:14px;
+	font-weight:bold;
+}
+.help_main_title a:link{
+	color:#3476B9;
+}
+
+/**常见问题的内容**/
+.right_article_content{
+	float:right;
+	width:625px;
+}
+.article_title{
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px dashed #ECECEC;
+	text-align:center;
+}
+
+/**底部样式**/
+.foot{
+	height:70px;
+	margin-top:15px;
+	overflow:hidden;
+	background:url(images/foot_bg.jpg);
+}
+.foot_logo{
+	float:left;
+	margin:10px 10px 0px 30px;
+	display:inline;
+}
+.foot_line{
+	float:left;
+	width:1px;
+	height:60px;
+	background:url(images/foot_line.jpg);
+	margin-top:10px;
+}
+.foot_menu{
+	float:left;
+	width:770px;
+	height:25px;
+	line-height:25px;
+	margin:15px 0 0 40px;
+	text-align:center;
+}
+.foot_menu .name{
+	float:left;
+	width:70px;
+}
+.foot_menu .line{
+	float:left;
+	width:10px;
+	height:22px;
+	line-height:22px;
+}
+.copyright{
+	margin-left:50px;
+	display:inline;
+	float:left;
+	height:58px;
+	color:#666666;
+}

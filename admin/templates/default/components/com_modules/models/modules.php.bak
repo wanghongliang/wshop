@@ -1,0 +1,49 @@
+<?php
+import('application.component.model');
+class ModulesModel extends Model
+{
+	var $nav = null;
+	var $client_id=0;
+
+
+ 	function ModulesModel()
+	{
+		parent::__construct();
+		$this->tableName = '#__modules';
+		$this->client_id = intval($_REQUEST['client_id']);
+
+ 	}
+	function getList()
+	{
+		
+		$where = " where uid =".$this->uid." and client_id=".$this->client_id;
+		import('html.navigations');
+		$sql = " select count(*) as n from ".$this->tableName;
+		$sql .= $where;
+
+		$this->db->query($sql);
+		$result = $this->db->getRow();
+		$this->nav = new Navigations(20,$result['n']);
+		
+
+ 
+ 		$sql = " select * from ".$this->tableName;
+		$sql .= $where;
+		$sql .= " order by  position, ordering';
+
+		$sql.= $this->nav->getLimit($_REQUEST['page']);
+
+		$this->db->query($sql);
+		return $this->db->getResult();
+	}
+
+	function getNav()
+	{
+		if( !$this->nav )
+		{
+			$this->getList();
+		}
+		return $this->nav;
+	}
+}
+?>

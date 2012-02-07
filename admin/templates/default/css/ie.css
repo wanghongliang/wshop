@@ -1,0 +1,9 @@
+/** IE顶部导航的行高 **/
+.topnav ul li{ padding-top:13px; }
+.topnav ul li span{
+	line-height:15px;
+}
+.topnav ul li span a{ color:black; }
+
+/** IE的导航栏色彩 **/
+.main_nav ul li a{ color:white;}

@@ -1,0 +1,9 @@
+.sback{padding-top:1px; _height:300px; min-height:300px; background:url(../images/searchback.gif) no-repeat 80px 0px;}
+#searchdiv{margin:0px 50px 0px 300px;}
+.stitle{font:bold 14px/30px '宋体'; color:#ED0E0E;}
+#sform{padding:0px 10px 10px 10px; background:#f9f9f9; border-top:1px solid #e3e3e3;}
+.sftitle{margin-top:10px; width:150px; text-align:center; font:bold 12px/30px '宋体'; background:#f3f3f3;}
+.sfdiv{padding:1px 0px 10px 0px; background:#fff;}
+.sfdiv p{margin:10px 10px 0px 10px; color:#666;}
+.slab{float:left; width:120px; text-align:right;}
+.sbtn{width:160px; height:40px; font:normal 20px/40px '微软雅黑'; text-align:center; color:#fff; border:none; background:url(../images/btn2.gif) no-repeat left top; cursor:pointer;}

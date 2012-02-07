@@ -1,0 +1,89 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td{margin:0px; padding:0px;}
+img{border:none;}
+ul, dl, ol{list-style:none;}
+body{font: normal normal normal 12px/20px Tahoma, Helvetica, Arial, 宋体, sans-serif; text-align:left;}
+
+a{text-decoration:none; color:#333;}
+a:hover{text-decoration:underline;}
+
+.mag-l80{margin-left:80px;}
+.pad-b20{padding-bottom:50px;}
+.flv{float:left; width:980px;}
+.col2{color:#61A566;}
+
+#main{margin:0px auto; width:980px;}
+#header{float:left; width:980px; height:90px;}
+#gree_logo{float:left; display:inline; margin:15px 0px 0px 70px; width:610px; height:70px; overflow:hidden; background:url("../images/webtitle.gif") no-repeat scroll left top transparent}
+#gree_logo a{display:block; width:210px; height:70px; text-indent:-1000em;}
+
+#log-thumb{float:left; display:inline; margin:40px 0px 0px 70px; width:410px; overflow:hidden;}
+#logindiv{float:right; display:inline; margin:40px 70px 0px 0px; width:328px;background:url(../images/logoback.gif) no-repeat left top;}
+.loginbot{display:block; background:url(../images/logoback.gif) no-repeat -330px bottom;  }
+
+#logohead{width:328px; height:36px;}
+#logohead h3{float:left; width:163px; text-align:center; font:bold 14px/36px '宋体'; color:#000;}
+#logohead h3 a{color:#999;}
+#logohead h3 a:hover{color:#E35151;}
+#loginform{clear:both; margin:20px 20px 0px 20px; padding-top:1px;}
+#loginform p{margin-top:18px; color:#999; }
+.inlab{float:left; width:80px; text-align:right; color:#333;}
+#loginform #username, #loginform #pwd,.logininp,.reg_input_text{ width:150px; height:18px; vertical-align:top;}
+#loginform #username{ }
+#logbtn{width:80px; height:30px; font:bold 14px/30px '宋体'; color:#fff; text-align:center; background:url(../images/btn3.gif) no-repeat left top; border:none; cursor:pointer;}
+#log-help{margin:15px 20px 0px 20px; padding-top:10px; text-align:center; color:#666; border-top:1px solid #e3e3e3;}
+
+/************ 用户注册 *****************/
+.retitle{margin:0px 70px; background:#f3f3f3; font:bold 14px/30px '宋体'; color:#f60; text-indent:10px; border-top:1px solid #ccc;}
+#reform{margin:40px 70px 0px 70px;}
+#reform p{margin:20px 0px 0px 50px;height:30px; overflow:hidden; text-align:left;}
+.reintro{margin-top:40px; padding:10px; height:150px; overflow-y:scroll; border:1px solid #ccc;}
+#reform .reintro p{margin:10px 0px 0px 0px; height:auto; color:#666;}
+.retext{width:180px; height:20px; line-height:20px; border:1px solid #ccc;}
+#yzm{height:20px; border:1px solid #ccc;}
+#submit{width:214px; height:34px; font:bold 14px/34px '宋体'; color:#fff; text-align:center; background:url(../images/btn4.gif) no-repeat left top; border:none; cursor:pointer;}
+
+#copyright{ clear:both; margin:0px 70px; padding:10px; text-align:center; color:#999; border-top:1px solid #e2e2e2;}
+
+.lh{ clear:both; width:100%; height:51px; overflow:hidden; }
+
+
+/** new add **/
+.info{
+	padding:0px  5px 0px 30px;
+	display:-moz-inline-box; display:inline-block;
+	height:20px;
+}
+.focus{
+	border:1px solid #40b3ff;
+ 	background:url(../images/msg_bg.png) #e5f5ff  no-repeat 4px -148px;
+}
+.error{
+	border:1px solid #ff8080;
+	background:url(../images/th_ju.gif) #fff2f2 no-repeat 5px center;
+	background:url(../images/msg_bg.png) #fff2f2  no-repeat 4px 2px;
+}
+.ok{
+	display:block;
+	margin-left:-20px;
+	width:20px; height:20px;
+	 background:url(../images/msg_bg.png)  no-repeat 0px -247px;
+}
+
+/** 验证码 **/
+#validate{   margin-left:2px; vertical-align:top;}
+
+
+
+.message{
+	width:92%;
+	line-height:25px; 
+ 	margin:auto;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	background:#ECE9D8 ;
+	color:red; 
+
+}
+
+

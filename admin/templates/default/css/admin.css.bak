@@ -1,0 +1,1026 @@
+.hide{ display:none;}
+
+#cenback{
+	float:left;
+ 	width:100%!important;
+}
+
+#cenback table tr td{ vertical-align:top; }
+/** 左边 **/
+.left{
+	float:left;
+	width:140px;
+	min-height:500px;
+  }
+
+
+/** 左边组件信息 **/
+.user{
+	height:101px;
+	background:url(../images/userbg.gif) no-repeat center center;
+ }
+
+ .user_name{
+	float:right;
+	width:100px;
+	height:58px;
+	font-family:Arail;
+	text-align:center;
+	margin:18px 0px 0px 0px;
+ }
+
+ .user_company
+ {
+	color:black;
+	text-align:center;
+ }
+
+
+
+
+
+.component,.component2{
+	display:block; 
+}
+.component{ margin:5px 10px; clear:both; min-height:450px; *height:450px;  }	
+.component2{ padding:0px 10px;
+}
+
+#header{  }
+.status{ height:50px; overflow-y:hidden; }
+
+
+.logo{
+	float:left; 
+	font-size:28px;
+	font-family:Arial;color:white; font-weight:bold;
+	background:url(../images/logo.gif) no-repeat 8px 5px;
+	width:220px;height:52px;
+ }
+
+.company_name{ float:left; font-family:'微软雅黑','宋体';color:#ddd;font-size:14px; padding:5px 0px 0px 15px;}
+.footer{
+	min-height:53px;
+	.height:53px; 
+	margin:10px 0px 0px 0px;
+	border-top:1px solid #B5D9B6;
+	padding-top:10px;
+	text-align:center; 
+	background:#F6F6F6;
+}
+
+.mainmenu{
+	clear:both;
+	height:31px;
+	background:url(../images/nav-bg.gif) repeat-x left top; 
+	padding-left:12px;
+}
+.short{ display:none; float:left; width:170px; height:28px; background:url(../images/short-bg.gif) no-repeat left 1px;}
+.short ul li{ width:70px; float:left; text-align:center;	font-size:14px;}
+
+
+ul.menu{  }
+ul.menu li{
+    float:left;
+	position:relative; 
+  	cursor:pointer;
+    text-align:left; 
+	padding:0px 20px; 
+	height:30px;margin-right:10px;
+}
+ 
+.menu  .elite{ background:#587AB8; }
+.menu li a{color:white; font-size:14px; line-height:12px;padding-top:10px; display:inline-block;}
+.menu li a:hover{ color:white; }
+.menu li.active{ background:url(../images/b3.gif) repeat left 1px; background:url(../images/nav-bg.gif) repeat-x left -38px; }
+/**.menu li.active a{ color:#666;}
+.menu li.active a:hover{ color:#666; }**/
+
+
+
+/** 子菜单 **/
+.ss{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:31px;
+	z-index:100;
+	list-style:none;padding:0px;
+}
+
+ul.menu li  li{ 
+height:25px;
+margin-right:0px;
+display:block;  
+border-bottom:1px solid #ddd;padding:0px;
+clear:both; 
+}
+
+ul.menu li  li a{ height:25px;
+color:#333; white-space:nowrap; line-height:25px; 
+padding:0px 5px 0px 18px;  font-size:12px; display:block;
+float:left; width:80px; *width:100px; overflow:hidden;
+/**background:url(../images/win_rb.gif) no-repeat 8px 10px; **/
+}
+ul.menu li  li a:hover{ color:white; background:#509555;}
+
+.menu li.dropmenu{  }
+.menu li.dropmenu .ss , .menu li.active .ss{ border:1px solid #ddd;
+border-top:0px; background:#F6F9FF; }
+
+.menu li.dropmenu .ss a{    }
+
+/** 下箭头 **/
+.droparr{ vertical-align:center; display:inline-block; width:7px; height:18px; background: url(../images/dropa.gif)  no-repeat right 10px; }
+.active .droparr{  background: url(../images/dropa.gif)  no-repeat right 10px; }
+
+
+ul.menu  li.elite li{ background:#587AB8;  }
+.menu li.elite .ss{  background:#587AB8;  }
+.menu li.elite .ss a{ color:white; font-size:12px; }
+
+.submenu{ clear:both; }
+.submenu .iscurrent{
+	font-weight:bold;
+	text-decoration:underline;
+}
+/** 鼠标放在导航条上的效果 **/
+ul li.over{ background:url(../images/nav-bg.gif) repeat-x left -38px;}
+
+
+#cpanelhome,#cpanelhome2{
+	clear:both;
+	margin-left:165px; 
+	display: block;
+	zoom: 100%;
+}
+
+#cpanelhome2{ margin-left:10px; }
+
+
+/** 左边菜单 **/
+.contentmenu{ 
+    clear: left;
+    float: left;
+    list-style: none outside none;
+    margin: 10px 5px 10px -155px;
+	*margin-left:-78px;
+    padding: 0;
+    position: relative;
+    width: 145px;
+}
+.com2{    
+	width:100%; 
+	float:left;
+}
+.com{ margin:10px 0px 10px 0px;    width:99%; }
+.shoutcutmenu{   }
+.shoutcutmenu .t,.navmenu .t{  background:#61A464; color:white;
+*width:100%;
+padding-left:8px; }
+.shoutcutmenu .t{ border:1px solid blue;  background:blue;  }
+.shoutcutmenu .t a,.navmenu .t a{  color:white; }
+.shoutcutmenu ul li,.navmenu ul li{ display:block;  padding-left:12px; }
+
+.contentmenu ul{ margin:0px; list-style:0px;display:block;}
+ 
+ 
+.shoutcutmenu .b,.navmenu .b{   padding:5px 0px 10px 0px; 
+	border:1px solid #DFDFDF; background:#fcfcfc; }
+
+.shoutcutmenu .active,.navmenu .active{border:1px solid #eee; border-width:1px 0px; width:100%; }
+  
+.navmenu .jia{  cursor:pointer;  background-position:0px -34px; }
+
+.shoutcutmenu ul li a{ display:inline-block; background:url(../images/menu-expanded2.gif) no-repeat -1px 10px; padding-left:8px; }
+.navmenu ul li a{ display:inline-block; background:url(../images/menu-leaf2.gif) no-repeat -1px 10px; padding-left:10px; }
+.navmenu ul li{   }
+
+ 
+.filter{float:left;padding:3px 0px 0px 5px; *padding:5px 0px 0px 5px;  margin-top:5px;  color:#999;}
+ 
+
+
+
+/** 菜单信息内容的管理 **/
+.manage,.manage_contents,.manage_products, .manage_pages, .manage_url, .manage_menulink, .manage_feedbacks{
+	padding-left:22px;
+    display:-moz-inline-box;
+    display:inline-block;
+	background:url(../images/pages.png) no-repeat left 3px;
+}
+.manage_contents{ background:url(../images/contents.png) no-repeat left 3px; }
+.manage_products{ background:url(../images/kuickshow2.png) no-repeat left 3px; }
+.manage_url{ background:url(../images/world_link.png) no-repeat left 3px; }
+.manage_menulink{ background:url(../images/folder_link.png) no-repeat left 5px; }
+
+.manage{ background:url(../images/gnome-window-manager.png) no-repeat left 3px; }
+.manage_feedbacks{ background:url(../images/gnome-window-manager.png) no-repeat left 3px; }
+
+
+
+/** tackle 工具条外框 **/
+.tackle{ margin:5px 0px 0px 0px; border-bottom:1px solid #6EBD83; 
+  height:45px;overflow:hidden;
+clear:both;width:100%;background:url(../images/tackle_bg1.gif) repeat-x left top; }
+
+
+/** 列表 **/
+table {
+	font-size:12px;
+}
+table.listtable{
+ 	width:100%;
+	clear:both;
+	background-color:#FFFFFF;
+	border-bottom:2px solid #B6DAB7;
+	margin-top:10px;
+}
+ 
+table.listtable tr td{
+	line-height:20px;
+	padding:2px 5px;
+ 	border:1px solid #eee;
+ }
+table.listtable tr th{
+	line-height:25px;
+	padding:0px 5px;
+	font-size:12px;
+ }
+ table.listtable tr th{
+    height:25px;
+    line-height:25px; 
+	border:1px solid #ddd; 
+	border-top:1px solid #C5E6C5;
+	color:#666;  font-weight:normal;
+	background:url(../images/tablethbg.gif) repeat-x #E9F3FF left 0px;;
+ }
+table.listtable thead tr th img{ vertical-align:middle; margin-top:-1px;}
+
+.fb{ font-weight:bold; }	/**列表字体加粗**/
+.help{ padding:5px 0px 0px 0px; color:#999; }
+
+
+.comment{ border:1px solid #f0f0f0; background:#fcfcfc; margin:10px 0px; padding:10px; }
+.comment_foot{ border-top:1px solid #f0f0f0; }
+.comment .re{ width:100%; background:white; border:1px solid #eee; }
+.comment ul li{ padding-left:10px; display:block;  } 
+
+/** 表单表格样式 **/
+.formtable{
+    clear:both;
+	width:100%;
+ 	background:white;
+	border:1px solid #ddd;
+}
+.formtable th{
+ 	font-weight:bold;
+	
+}
+.formtable tr td, .formtable tr th{
+	padding-left:5px;  
+	 	border:1px solid #ddd;
+	padding:5px 10px;
+	background:white;
+ }
+
+.formtable tr.style1 td{
+ 
+}
+
+.formtable tr.style2 td{
+   background:white;
+	padding-left:12px;
+	_padding-left:10px;
+}
+
+
+.formtable tr td.form_text{
+ 	padding-left:10px;
+	background:#EFEFEF;
+	text-align:right;
+	width:30%; 
+	vertical-align:top;
+}
+table.formtable2{ margin-top:0px; background:transparent; }
+.tips{ color:red; width:10px;display:inline-block; text-align:left;}
+
+
+
+/** 编辑商品的切换菜单 ****/
+.editor-tabs{  margin-top:8px; border-left:1px solid #ddd;    height:29px;
+background:url(../images/1.gif) repeat-x left bottom; }
+ 
+.editor-tabs ul li{  
+	border:1px solid #ddd; float:left;
+	padding:0px 15px; border-width:1px 1px 0px 0px;  cursor:pointer; 
+	background:url(../images/tablethbg.gif) repeat-x left 0px;;
+	height:28px; 
+}
+.editor-tabs ul li .active{ height:30px;}
+
+.switch_con li{ padding:10px; min-height:200px;*height:200px; border:1px solid #ddd; border-top:0px; display:none; background:white; *float:left; *width:100%; }
+.switch_con .active{ display:block;  }
+
+
+#pimg{ height:150px;}
+.pimg_list ul li{  display:inline; border:0px;padding:2px;height:50px; min-height:80px;width:55px; float:left; }
+.pimg_list .pimg_thumb{ border: 1px  dotted #DDDDDD; width:50px; }
+.pimg_list .active{ border:1px solid red;}
+
+
+/** 商品上传缩略图 **/
+#uploadthumb td{ background:#FFF6BF; }
+/** 内容管理( 编辑表单标题 ) **/
+.title_text{
+	float:left;
+	width:100px;
+}
+
+/*** 内容编辑表单 ***/
+.switch_btn{ 
+	 
+}
+.switch_btn li{ 
+ }
+.switch_btn li.active{  
+	background:white;
+ } 
+
+.formbtn{ height:30px;text-align:center; padding:10px 0px 0px 0px; }
+
+
+/** .apply_btn **/
+.formbtn .submit_btn,.formbtn .apply_btn,.formbtn .cancel_btn,.btn,.sbutton{ 
+background:url(../images/tablethbg.gif) repeat-x #E9F3FF left top; 
+padding:2px 10px; 
+}
+.sbutton{ padding:0px 5px;}
+
+
+/** 商品规格 **/
+
+/** 商品规格图片 **/
+.spec_pic{ border:1px solid #3366CC; vertical-align:top; }
+.spec_option{ width:50px; }
+
+
+
+
+.linkproducts-table th{ text-align:center; padding:10px 0px 0px 0px;}
+.linkproducts-table p{ padding:10px 0px 0px 0px;}
+
+/** 参数表格 **/
+.paramlist{
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+.paramlist tr td{
+ 	font-size:12px;
+	line-height:28px;
+	border-bottom:1px solid #eee;
+}
+
+.paramlist tr td.paramlist_key{
+	text-align:right;
+	padding-right:5px;
+	font-weight:bold;
+	width:121px !important;	width:103px;
+}
+
+
+.paramlist tr td.paramlist_value
+{
+}
+
+.paramlist .editlinktip{
+
+}
+
+
+.menu_parameter table tr td{ 
+	border:0px; 
+}
+
+
+
+
+/** 工具条 **/
+.toolbar{
+    width:100%;
+	text-align:left; padding-bottom:0px;
+    /**background:url(../images/tools_bg.gif) repeat-x left 39px;**/
+} 
+.tools{	
+	float:right; height:42px; margin-top:0px;
+}
+/** 两边加了边框 **/
+.tool_border{   }
+
+
+/** 工具条按钮 **/
+.btn_add,.btn_default, .btn_move, .btn_edit, .btn_copy , .btn_recycle , .btn_delele , .btn_cancel ,.btn_apply , .btn_save, .btn_lock, .btn_unlock, .btn_help,.btn_back{
+	width:50px;
+ 	float:left;
+	margin-top:0px;
+	padding-top:20px;
+	text-align:center;
+	background:url(../images/btn5.gif) no-repeat -6px top;
+}
+
+.btn_add{ background:url(../images/btn5.gif) no-repeat 10px top; }  /***添加 ***/
+.btn_default{ background:url(../images/btn5.gif) no-repeat -502px top; }  /***添加 ***/
+
+.btn_move{ background:url(../images/btn5.gif) no-repeat -160px top; }	/** 移动 **/
+.btn_copy{ background:url(../images/btn5.gif) no-repeat -243px top; }	/** 复制 **/
+.btn_recycle{ background:url(../images/btn5.gif) no-repeat -288px top; }	/** 回收站 **/
+.btn_delele{ background:url(../images/btn5.gif) no-repeat -202px top; }  /** 删除 **/
+.btn_lock{ background:url(../images/btn5.gif) no-repeat -75px top; }  /** 锁上 **/
+.btn_unlock{ background:url(../images/btn5.gif) no-repeat -450px top; }  /** 解锁 **/
+
+.btn_cancel{ background:url(../images/btn5.gif) no-repeat -330px top; }	/** 取消 **/
+.btn_apply{ background:url(../images/btn5.gif) no-repeat -372px top; }	/** 应用 **/
+.btn_save{ background:url(../images/btn5.gif) no-repeat -117px top; }	/** 保存 **/
+.btn_edit{ background:url(../images/btn5.gif) no-repeat -36px top; }	/** 编辑 **/
+
+.btn_help{ background:url(../images/btn5.gif) no-repeat -415px top; ;} /** 帮助 **/
+.btn_back{ background-position:-555px top; }
+ 
+/** 组件图标 **/
+.com_,.com_contents{
+  	display:block;
+ 	text-align:left; 
+	font-weight:bold;
+	
+ }
+.com_ li{
+	float:left;
+	height:22px; padding-left:5px;padding-right:5px;
+	color:#1A418E; *overflow:hidden;
+	display:inline; 
+	font-size:14px; 	 
+	margin-right:5px;
+}
+.com_ .active_li{ 
+	font-family: '宋体';
+	color:#666; 
+	background:none;
+}
+.com_ li a{ color:#61A464; text-decoration:underline;}
+.com_ li a:hover{ text-decoration:underline;}
+.com_ .active_li a{ color:#666;text-decoration:none;}
+
+.com_ .normal_li{
+
+}
+
+/**** 编辑、删除 ********/
+.list_edit, .list_del{padding:2px 0px 2px 12px;}
+.list_edit{background:url(../images/menuico.gif) no-repeat left -677px;}
+.list_del{background:url(../images/menuico.gif) no-repeat left -717px;}
+
+
+/** 对话框信息 -------------------------------------------------------------  **/
+
+/** mask样式 **/
+.mask{
+	position:absolute;
+	top:0px;left:0px;
+	background:black;
+	width:100%;
+	display:none;
+	filter:alpha(opacity=50); /* IE */
+	-moz-opacity:0.5; /* Moz + FF */
+	opacity: 0.5; /* 支持CSS3的浏览器（FF 1.5也支持）*/
+}
+
+.wDialog{
+	width:500px;
+   	background:url(../images/content_bg.gif) white repeat-x left 22px;
+	position:fixed;
+	*position:absolute;
+	_position:absolute;
+	top:100px;
+ 	text-align:left;
+	display:none;
+ }
+
+
+ 
+
+
+/** 对话框标题 **/
+.wDialog_title{
+ 	height:25px;
+	overflow:hidden;
+	padding:0px 5px; 
+	background:#3A723F;
+	background: url("../images/tablethbg.gif") repeat-x scroll left 0 transparent;
+}
+.wDialog_cancel{
+	float:right;
+	cursor:pointer;
+}
+.wDialog_text{
+	float:left;
+	height:20px;
+	width:50%;
+	text-align:left;
+	padding-left:0px;	
+	cursor:move;
+
+}
+.wDialog a{ cursor:pointer; }
+
+iframe{ }
+.wDialog_body{
+	padding:0px 0px;
+	
+ }
+#dialogiframe{
+	width:100%;
+	_width:100%;
+ 	_margin:0px 3px;
+}
+/** ----------------------------------------------------------------------------------- **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 选择菜单弹出对话框样式 ***/
+.selectmenutype{
+	padding:5px 10px;
+}
+.selectmenutype ul li{
+	display:block;
+	background:url(../images/line.gif) transparent repeat-y left top;
+}
+.selectmenutype ul li a{
+	color:red;
+}
+
+.selectmenutype ul li ul li{
+	margin-left:30px;
+ }
+
+/** 菜单组件的选择 **/
+.root-node{ 	background:url(../images/folderopen.gif) no-repeat transparent left 6px;	 }
+.node{  		background:url(../images/minus.gif) no-repeat transparent left 6px;			}
+.link-node{ 	background:url(../images/join.gif) no-repeat transparent left 6px;			}
+.link-bottom{ 	background:url(../images/joinbottom.gif) no-repeat white left -25px;		 }
+.alias-node {   background:url(../images/joinbottom.gif) no-repeat white left -25px; padding-left:20px;padding-top:5px; }
+.root-node,.link-node,.node,.link-bottom{
+	padding-left:22px;
+	_padding-left:5px;
+	*padding-left:5px;
+}
+
+
+
+/**--------------------  模块样式 ----------------------**/
+.mod_statu{
+	padding-top:10px;
+	text-align:right;
+	padding-right:10px;
+}
+.mod_statu li a{padding:5px 10px 5px 20px;  }
+#show{background:url(../images/statue.gif) no-repeat left center;}
+#s_mail{background:url(../images/statue.gif) no-repeat -65px center;}
+#s_user{background:url(../images/statue.gif) no-repeat -130px center;}
+#s_out{background:url(../images/statue.gif) no-repeat -235px center;}
+
+
+
+/** 选择模块的外框 **/
+.select_module{ width:95%; border:1px solid #eee; margin:auto; margin-top:10px; padding:0px 10px;}
+.select_module ul li{ width:24%; float:left; }
+
+
+/** 列表背景 **/
+.trbg1{
+	 
+}
+
+.trcurrent td{
+	background:#FFFFCB;
+ }
+
+
+ /** 转移菜单 **/
+.shiftcontent{	padding:10px 20px;	}
+.shiftcontent span{ font-size:12px; color:#666; }
+.shiftcontent ul li{
+	display:block;
+}
+
+.addtr,.deltr{ font-size:18px;   cursor:pointer; }
+.deltr{  }
+
+/** 导航背景 **/
+.navigations td{
+	background:#fcfcfc;
+}
+
+
+/** 确认对话框 **/
+.confirm{
+	text-align:center;
+}
+.yes,.no{
+    display:-moz-inline-box;
+    display:inline-block;
+    width:60px;
+	border:1px solid #eee;
+	background:#f9f9f9;
+	line-height:22px;
+	cursor:pointer;
+	border:1px solid gray;
+	margin:8px;
+	text-align:center;
+ }
+ .no{ }
+
+
+
+
+ /** 移动内容时的菜单选择 **/
+ .selectmenu{ width:200px; }
+ .selectmenu i{ text-decoration:underline;}
+.prompt{color:#666;text-align:left;line-height:18px;}
+
+
+ /** 回收站管理 **/
+ .recycle_list{ margin:20px;}
+
+ .recycle_list li{
+ width:100px;float:left;
+ height:100px;
+ margin:10px;
+ text-align:center;
+ border:1px solid #f0f0f0;}
+
+
+
+
+ /** 列表排序时，生成的保存按钮 **/
+ .order_savebtn{
+	position:absolute;
+	border:1px solid gray;
+	line-height:18px;
+	cursor:pointer;
+	width:30px;
+	text-align:center;
+	background:#f0f0f0;
+ }
+ .ordering{ width:30px; }
+
+
+
+
+
+/**  后台默认的登陆界面 **/
+.cpanel_header{
+	width:100%;
+	text-align:left;
+    *height:132px;
+    min-height:132px; 
+  	_overflow-x:hidden;
+}
+
+/** 企业信息 **/
+
+
+.company_info,.company_info2{
+	line-height:22px;
+	background:white;
+
+ }
+.company_info{	min-height:400px;
+	*height:400px;
+ }
+.company_info3,.company_info4{ 
+	
+	border-top: 1px dotted rgb(181, 206, 231); 
+	padding:10px 5px; line-height:22px;
+ }
+ .company_info4{ color:#999;} 
+ .company_info4 a{ color:#999;}
+
+.company_info3 a{ color:#003399; }
+.company_info{
+	padding:25px 0px 0px 20px;
+	margin:0px 0px 10px 0px;
+	min-height:200px;
+
+	filter:alpha(Opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;
+	border:1px solid #C3D7EB;
+ }
+
+
+
+/** ul li 模块样式 **/
+.con_mod{
+ 	/** width:48%; **/
+	width:100%;
+	_height:200px;
+	min-height:200px;
+	border:1px solid #CCC5FD;
+	margin:10px 0px 0px 0px;
+ 	line-height:25px;
+
+}
+
+.con_mod a{ color:#003399; }
+
+
+/** 模块内的UL LI列表样式 **/
+.con_mod ul li{
+	display:block;
+}
+
+
+.more{ float:right; }
+.cpanel{
+ }
+.cpanel .con{
+	padding:0px 10px;
+}
+
+.cpanel .con_title{
+	padding:0px 10px;
+	font-weight:bold;
+	line-height:30px;
+}
+
+
+
+
+
+
+
+/*** /////////////////////////////////   com_style  //////////////////////////内的样式 **/
+.style_header{
+	height:33px;
+	background:url(../images/bg-tab2.gif) repeat-x left top;
+
+	text-align:left;
+}
+
+
+/** 添加模块,选择风格 按钮 **/
+.style_tool ul li{
+	float:left;
+	width:90px;
+	height:29px;
+ 	margin:5px 0px 0px 5px;
+	text-align:center;
+	cursor:pointer;
+	font-size:14px;
+	font-weight:bold;
+}
+li.style_tool_c{ 
+	
+	background:url(../images/btn-tab2.gif) no-repeat -85px -5px;
+}
+
+
+/** 模块列表 **/
+.mlist,.tlist{
+	height:200px;
+	display:none;
+	border-bottom:2px solid #86B91C;
+	background:#F7FAE6;
+	text-align:left;
+	border:1px solid #F7FAE6;
+}
+.tlist{ display:none; }
+
+/** 已创建的模块 **/
+.module_list,.module_type,.template_list{
+	float:left;
+	width:500px;
+	height:180px;
+	overflow-y:auto;
+	border:1px solid #A0CE67;
+	margin:10px 5px;
+}
+
+
+
+/** 推荐模块 **/
+.module_type{ width:350px;}
+
+.module_list ul li,.module_type ul li{
+	width:135px;
+	.width:155px;
+	height:20px;
+	float:left;
+	margin:5px 0px 0px 5px;
+	padding:2px 10px;
+	font-weight:bold;
+	border:1px solid #DAE7A2;
+	text-align:left;
+	background:white;
+	line-height:22px;
+	color:#4B5F29;
+}
+
+.module_list ul li a{
+	float:right;
+}
+
+.m_title{
+	border-bottom:1px solid #A0CE67;
+	background:#EDF6CB;
+	padding-left:5px;
+	font-weight:bold;
+	height:25px;
+	line-height:25px;
+	text-align:left;
+}
+.m_body{ width:100%;height:150px;overflow:auto; }
+
+
+
+
+
+
+
+/*** 模板选择 ***/
+
+.template_list{ width:800px; }
+.template_list td{ width:100px; }
+.template{ margin:8px 0px 0px 8px; line-height:18px; cursor:pointer; }
+.template .img{  border:1px solid #A0CE67;padding:1px;}
+.template .default{ border:2px solid #7186A4; }
+
+/** 打开关闭按钮 **/
+.openbtn{ 
+	width:100%;	border-top:3px solid #86B91C;
+ }
+.cls,.cls2{
+	width:32px;
+	height:12px;
+	margin:auto;
+	background:url(../images/cls-btn.gif) no-repeat  -32px -1px;
+	cursor:pointer;
+}
+.cls2{ background:url(../images/cls-btn.gif) no-repeat left -1px; }
+
+
+
+
+/** 拖动布局 **/
+
+/**
+ * 保存和取消按钮 
+ */
+.style_btn{ 
+	float:right;
+	width:200px; 
+	height:30px;
+}
+
+.style_save,.style_cancel{ 
+	width:70px;
+	height:30px;
+	float:left;
+	background:url(../images/btn.gif) no-repeat left top;
+	margin-top:4px;
+	margin-left:10px;
+	cursor:pointer;
+}
+.style_cancel{ background:url(../images/btn.gif) no-repeat -70px  0px;	}
+
+/** 预览按钮 **/
+.style_preview{
+	float:left; padding-top:3px;
+	padding-left:5px;
+}
+
+
+
+/*** //////////////////////////////// com_boot内的样式 //////////////////////////// **/
+
+.com_boot_f{
+	background:white;
+	min-height:500px;
+	_height:500px;
+	padding-top:10px;
+	margin:0px 0px 0px 5px;
+}
+
+.boot_t{
+	font-size:18px; /** 标题 **/
+	font-weight:bold;
+	text-align:left;
+ 	margin:20px 10px 10px 10px;
+	padding:10px;
+	
+
+	border:1px solid #E1EBF5;
+ 	background:#fcfcfc;
+	border-bottom:1px solid #E1EBF5;
+	border-right:1px solid #E1EBF5;
+
+ 
+}
+.boot_t span{ font-size:12px; font-weight:normal; color:#666; }
+
+.boot_steps{ 
+	text-align:left; 
+	padding:10px;
+	margin:5px;
+}
+.boot_steps ul li{
+	display:block;
+	font-weight:bold;
+	min-height:60px;
+	line-height:22px;
+}
+.boot_steps span{ color:#999; display:block; font-weight:normal; padding-left:50px; }
+
+
+
+/** 导入下方的继续按钮 **/
+.boot_btn{
+	padding:10px;
+}
+
+/** 开始按钮 **/
+.boot_start{
+	width:100px;
+	height:35px;
+	line-height:35px;
+	border:1px solid #eee;
+	margin:auto;
+	background:#f0f0f0;
+	border-bottom:1px solid #aaa;
+	border-right:1px solid #aaa;
+	text-align:center;
+	cursor:pointer;
+	
+}
+
+
+
+/** 导入数据主体框 **/
+.boot_steps_body{
+	text-align:left;
+	padding:10px;
+ 	margin:auto;
+}
+.boot_steps_body ul li{ display:block; }
+
+.boot_steps_body table tr td{ vertical-align:top; padding:2px 10px; }
+
+
+
+/** ajax 导入提示内容 **/
+.boot_import{
+	padding:10px;
+}
+.boot_import ul li{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+/*** 高级编辑器 **/
+
+/** 购物订单样式 **/
+.order_detail_frame { background:  #FFFFFF; border:2px solid #DFC9B2; margin:20px 0px; padding:10px 20px;   }
+.order_detail_frame h2{ font-weight:bold; font-size:14px; line-height:35px; }
+.ditail_frame_p { border-bottom:1px solid #F2E2D4; line-height:23px; padding:0 25px 11px;   display:block; }
+.ditail_frame_p td{ line-height:25px; }
+.order_header td{ padding:5px 5px; }
+.order_header{ margin:5px 0px 10px 0px; }
+
+
+
+
+
+/** 城市 AJAX方式管理 **/
+.plus,.plus_n{  float:left; margin:3px 10px 0px 0px; width:10px;height:10px; border:1px solid gray; line-height:10px; text-align:center;	 cursor:pointer; }
+.plus_n{ border:none; }
+.m1{ margin-left:15px; }
+.m2{ margin-left:30px; }

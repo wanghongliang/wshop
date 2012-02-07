@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>友情链接</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>友情链接.</description>
+
+	<files>
+    	<filename module="mod_links" >mod_links.php</filename>
+  	</files>
+ 	<position>
+		wrap
+	</position>
+	<params>
+		<param name="width" type="text" default="" size="5" label="宽度" description="宽度" />
+		<param name="height" type="text" default="" size="5" label="高度" description="高度" />
+
+ 		<param name="showway" type="list" default="0" label="显示方式" description="显示方式">
+			<option value="0">图片链接</option>
+			<option value="1">文字链接</option>
+   		</param>
+ 		<param name="catid" type="linktype"  default="0"   label="请选择分类" description="指定分类显示" />
+
+		<param name="num" type="text" default="0" size="5" label="数量" description="数量" />
+
+		
+ 		<param name="showtitle" type="list" default="0" label="是否显示标题" description="是否显示标题">
+			<option value="0">否</option>
+			<option value="1">是</option>
+  		</param>
+
+
+		<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+
+		
+
+	</params>
+</install>

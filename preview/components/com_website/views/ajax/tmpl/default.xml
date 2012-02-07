@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="网站详细信息">
+		<message>
+			<![CDATA[This layout shows a single weblink.]]>
+		</message>
+	</layout>
+	<state>
+		<name>网站详细信息</name>
+		<description>网站详细信息</description>
+		<params>
+			<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Image" description="PARAMIMAGE"  />
+
+		</params>
+	</state>
+</metadata>

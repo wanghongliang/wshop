@@ -1,0 +1,30 @@
+﻿html{background:#ffd200;}
+#menudiv{ height:40px;}
+
+.b-white{background:#fff;}
+.c-gray{color:#999;}
+.fsbox{float:left; width:980px;}
+
+#newtitle{float:left; display:inline; margin:10px 0px 0px 20px; width:940px; height:38px; background:url(../images/flashsale1.gif) repeat-x left top;}
+#newtitle h2{float:left; width:130px; height:38px; overflow:hidden; text-indent:-999em; font:bold 18px/38px '微软雅黑'; color:#fff; background:url(../images/flashsale2.gif) repeat-x left top;}
+#newmore{float:right; width:90px; height:38px; overflow:hidden; text-indent:-999em; background:url(../images/flashsale3.gif) no-repeat left top;}
+
+
+.sprobox{float:left; list-style:none; display:inline; margin:30px 0px 0px 28px; padding:0px; width:210px; height:290px; overflow:hidden;}
+.sptime{margin:0px; padding:0px; height:25px; font:normal 12px/25px 'Arial'; color:#fff; background:#D81102;}
+.spimg{position:relative; text-align:center; padding-bottom:10px; background:#fff; border:1px solid #D81102;}
+.gocheck{position:absolute; display:block; left:-1px; top:-1px; width:56px; height:40px; overflow:hidden; text-align:left; text-indent:-999em; background:url(../images/gocheck.gif) no-repeat left top;}
+.spimg img{display:block; margin:10px 0px 0px 15px;}
+.spname{margin:5px 20px 0px 20px; padding:0px; height:40px; overflow:hidden;}
+.sprobox dd{margin:0px 20px; padding:0px;}
+.sprice{font:normal 12px/33px 'Arial';}
+.spbuy{display:block; margin:5px auto 0px auto; width:170px; height:45px; overflow:hidden; text-indent:-999em; background:url(../images/flashsalebuy.gif) no-repeat left top;}
+/******* 分页显示 ***********/
+.page{clear:both; padding:20px 0px; text-align:center; }
+.page span a{  font:bold 14px/20px 'Arial'; border:1px solid #666;}
+.page a{padding:3px 5px; font:bold 14px/20px 'Arial'; border:1px solid #999;}
+.page a.atext{font-weight:normal;}
+.page .page_current{  background:#D81102; color:#fff; border:1px solid #D81102;}
+.page a:hover{text-decoration:none; border:1px solid #D81102;color:#fff; background:#D81102; }
+.price{padding-left:10px; background:url(../images/dol.gif) no-repeat left 5px; color:#f60; font:bold 18px/20px 'Arial';}
+#spcontent{clear:both; margin:0px auto; width:980px; background:#fff; text-align:center; }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client_id="0" >
+	<name>焦点信息+会员统计信息</name>
+	<author>王洪亮</author>
+	<creationDate>2010-1-9</creationDate>
+	<copyright>Copyright (C) 2009. All rights reserved.</copyright>
+	<license>http://www.daybillion.com</license>
+	<authorEmail>daybillion@yahoo.com.cn</authorEmail>
+	<authorUrl>www.daybillion.com</authorUrl>
+	<version>0.0.1</version>
+	<description>焦点信息+会员统计信息.</description>
+
+	<files>
+    	<filename module="mod_latestarticle" >mod_latestarticle.php</filename>
+  	</files>
+ 	<position>
+		left
+	</position>
+	<params>
+		<param name="num" type="text" default="8" size="5" label="显示的数量" description="显示的数量" />
+ 		<param name="catid" type="catid" com="contents" default="0"   label="请选择分类" description="指定分类显示" />
+		<param name="length" type="text" default="8" size="10" label="标题的长度" description="标题的长度" />
+
+
+ 		<param name="catlink" type="list" default="0" label="是否链接到目录" description="是否链接到目录">
+			<option value="0">否</option>
+			<option value="1">是</option>
+  		</param>
+
+
+ 		<param name="showauthor" type="list" default="0" label="显示作者" description="是否显示作者">
+			<option value="0">否</option>
+			<option value="1">是</option>
+  		</param>
+
+ 		<param name="titlelink" type="list" default="0" label="标题链接" description="标题链接">
+			<option value="0">否</option>
+			<option value="1">是</option>
+  		</param>
+
+		<param name="title_sfx" type="text" default="" size="15" label="省略标题后缀" description="省略标题后缀" />
+
+ 
+		<param name="moduleclass_sfx" type="text" default="" size="15" label="样式名称" description="样式名称" />
+
+	</params>
+</install>

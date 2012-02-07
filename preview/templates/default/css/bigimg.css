@@ -1,0 +1,23 @@
+.imgleft{float:left; padding-bottom:20px; width:790px;}
+.imgtitle{float:left; width:790px; background:#f6f7f9; border-top:1px solid #e4e8f1;}
+.imgtitle h1{float:left; font:bold 14px/35px '宋体'; color:#000; text-indent:10px;}
+a.imgback{float:right; display:inline; margin:5px 5px 0px 0px; width:90px; height:25px; line-height:28px; text-indent:20px; color:#fff; background:url(../images/btn8.gif) no-repeat left top;}
+#imgshow{clear:both; position:relative; text-align:center; height:600px; }
+#primg{margin:0px auto; width:600px; height:600px; overflow:hidden;}
+#imgprev{position:absolute; left:50px; top:0px; width:150px; height:600px; overflow:hidden; text-indent:-999em; cursor:pointer;}
+.prevyes{background:url(../images/imgprev.gif) no-repeat left 280px;}
+.prevno{background:url(../images/imgprev2.gif) no-repeat left 280px;}
+#imgnext{position:absolute; right:50px; top:0px; width:150px; height:600px; overflow:hidden; text-indent:-999em;  cursor:pointer;}
+.nextyes{background:url(../images/imgnext.gif) no-repeat right 280px;}
+.nextno{background:url(../images/imgnext2.gif) no-repeat right 280px;}
+
+.imgright{float:right; width:180px; border:1px solid #e4e8f1;}
+.imgtitle2{font:bold 14px/30px '宋体'; color:#000; text-indent:10px; background:#f6f7f9;}
+.imgtitle2 span{font:normal 12px/30px '宋体'; color:#999;}
+#imgsmall{float:left; width:180px;}
+#imgsmall li{float:left; display:inline; margin:12px 0px 0px 12px; border:1px solid #e4e8f1; cursor:pointer;}
+#imgsmall li img{display:block;}
+#imgsmall li:hover{border:1px solid #f60;}
+#imgsmall li.now{border:1px solid #f60;}
+#imgpage{clear:both; padding:10px 0px; text-align:center;}
+#imgright{clear:both; padding:20px; text-align:center; color:#999; border-top:1px solid #e4e8f1;}
